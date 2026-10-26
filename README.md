@@ -66,9 +66,16 @@ The word clock combines three sources:
 Where all three were wrong, the measured fix is in `v2/audio/word_overrides.json`, with the reason written next to
 it.
 
-## What we learned
+## What's inside
 
-See [LESSONS.md](LESSONS.md). The three biggest:
+- [LESSONS.md](LESSONS.md): everything that worked and everything that failed, across two films.
+- [PROMPTS.md](PROMPTS.md): the prompt patterns for the identity sheet, plates, sung close-ups, action worlds and the
+  song, and why each one reads the way it does.
+- **A Claude Code skill** in [`.claude/skills/claudia-music-video/`](.claude/skills/claudia-music-video/SKILL.md).
+  Clone the repo, run `claude` inside it and say "make me a Claudia music video": it walks the whole method, with a
+  checkpoint wherever a human should pick.
+
+The three biggest lessons:
 1. Lip-sync from the isolated vocal, never the full mix.
 2. Keep faces big. Small faces get glitchy eyes.
 3. Draw the lyrics in code instead of generating them. Code is precise, and less is more.
@@ -84,7 +91,7 @@ You also need ffmpeg. Scripts that call an API log what they spend to `spend.csv
 
 ## Credit and terms
 
-- Claudia, her canon and much of the method come from **anabology**. Read their notes and watch the originals at
+- **Claudia is an open character by anabology (claudia.gallery).** Her canon and much of the method are theirs. Read their notes and watch the originals at
   [claudia.gallery](https://claudia.gallery); the character's terms of use are at
   [claudia.gallery/use](https://claudia.gallery/use/).
 - The code in this repo is MIT-licensed. The song, the film and the stills are ours; credit "LOW LATENCY: Claudia by

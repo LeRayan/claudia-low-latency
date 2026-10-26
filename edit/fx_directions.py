@@ -90,7 +90,7 @@ def fisheye(frame, mask, word):
 
 
 def chrome(frame, mask, word):
-    """4. Chrome 3D: a liquid-chrome extruded word behind her, Gaga-era album type."""
+    """4. Chrome 3D: a liquid-chrome extruded word behind her, glossy pop-album type."""
     W, H = frame.size
     t = text_layer(frame.size, word, WHITE, maxh_frac=0.55, y_frac=0.4)
     out = frame.copy()
