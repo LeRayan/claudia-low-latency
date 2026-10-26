@@ -71,6 +71,8 @@ it.
 - [LESSONS.md](LESSONS.md): everything that worked and everything that failed, across two films.
 - [PROMPTS.md](PROMPTS.md): the prompt patterns for the identity sheet, plates, sung close-ups, action worlds and the
   song, and why each one reads the way it does.
+- [CHARACTERS.md](CHARACTERS.md): how to make believable variants of an open character, and an honest section on
+  fighting the model's defaults (and ours). It comes with its own skill, `character-variants`.
 - **A Claude Code skill** in [`.claude/skills/claudia-music-video/`](.claude/skills/claudia-music-video/SKILL.md).
   Clone the repo, run `claude` inside it and say "make me a Claudia music video": it walks the whole method, with a
   checkpoint wherever a human should pick.
