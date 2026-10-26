@@ -1,0 +1,8 @@
+{
+ "seed": 7031,
+ "resolution": "768p",
+ "prompt_upsampling": true,
+ "preroll": 0.5,
+ "model": "p-video-2-pro-avatar",
+ "inputs": "plate as portrait, the vocal-stem window as audio"
+}

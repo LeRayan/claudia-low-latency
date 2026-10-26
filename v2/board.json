@@ -1,0 +1,471 @@
+{
+ "title": "LOW LATENCY",
+ "song": "v2/audio/LOW-LATENCY-PICK.wav",
+ "bpm": 121.75,
+ "treatment": "Claudia is the engineer and the diva of AI efficiency. On a cathedral stage of servers she conducts the show; each verse line is a theatrical world for one technique: a candlelit distillation lab, a fibre-optic bonsai she prunes with silver shears, a forge where streams of purple light fuse into one ingot, an amber memory vault, a staircase of glowing quantized cubes, a giant split-flap board she finishes before it flips. Everything gets faster because of her. She ends at the console: less compute, more me.",
+ "device": "THE LATENCY READOUT, drawn in code top-left: 'LATENCY 1,240 ms' at the start. Each technique, when she names it, lights up as a purple chip in a row under it (DISTILL, PRUNE, FUSE, CACHE, QUANTIZE, SPECULATE, COMPILE) and the latency rolls down on the beat. The bridge fires all seven chips one per word. On the last line it locks: 'LATENCY 9 ms \u00b7 LESS COMPUTE \u2713 MORE ME'.",
+ "look": "a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam",
+ "id_text": "a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek",
+ "shots": [
+  {
+   "id": "L01",
+   "bars": [
+    0,
+    4
+   ],
+   "start": 0.0,
+   "end": 7.5,
+   "dur": 7.5,
+   "section": "intro",
+   "lyric": "Prune it! Distill it! Fuse it! Ship it!",
+   "set": "stage",
+   "framing": "MCU",
+   "action": "On the podium she punches each word of the chant into the air with a gloved fist, one word per beat, eyes on the lens; the purple beams fire on each word.",
+   "camera": "Locked medium close-up, a tiny push on each word.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L01-PICK.png",
+   "plate_prompt": "Medium close-up, eye level, she stands on the right third at the podium of a cathedral-sized data hall turned into a concert stage: towering racks of servers like organ pipes glowing purple, haze, beams of purple and white light, a raised black podium with a sleek glowing console, one gloved fist raised beside her face, shouting a word, eyes fierce on the lens. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L02",
+   "bars": [
+    4,
+    8
+   ],
+   "start": 7.5,
+   "end": 15.385,
+   "dur": 7.885,
+   "section": "chorus 1",
+   "lyric": "Low latency, baby / Zero wasted time",
+   "set": "stage",
+   "framing": "MCU",
+   "action": "She belts the hook with joy, moving like a real singer on stage: her head turns and tilts naturally with the phrases, she looks out over the crowd and back into the lens, relaxed natural blinks, one gloved hand rising with the long note.",
+   "camera": "Eye-level, a gentle handheld drift toward her.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L02-PICK.png",
+   "plate_prompt": "Medium close-up at eye level, the camera straight at her face, at the podium of a cathedral-sized data hall turned into a concert stage: towering racks of servers like organ pipes glowing purple, haze, beams of purple and white light, a raised black podium with a sleek glowing console, she is on the left third, head turned slightly toward the crowd, singing an open note with joy, eyes open and bright, one gloved hand raised beside her. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible. Her eyes are sharp and natural, clearly lit.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L03",
+   "bars": [
+    8,
+    11
+   ],
+   "start": 15.385,
+   "end": 21.299,
+   "dur": 5.914,
+   "section": "chorus 1",
+   "lyric": "Cut the weights, keep the shine / Every token mine",
+   "set": "stage",
+   "framing": "CU",
+   "action": "Close-up: she sings straight into the lens, amused and certain, holding the long note of 'mine' with power.",
+   "camera": "Locked.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L03-PICK.png",
+   "plate_prompt": "Close-up of her face and shoulders on the right third, the stage behind her a soft blur of purple light and haze, singing, eyes on the lens, amused and certain. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L04",
+   "bars": [
+    11,
+    16
+   ],
+   "start": 21.299,
+   "end": 31.155,
+   "dur": 9.856,
+   "section": "chorus 1 tail",
+   "lyric": "Every token mine",
+   "set": "stage",
+   "framing": "MCU",
+   "action": "She sings on at the console, working the glowing faders with deliberate, precise hands, shoulders still, eyes on the lens.",
+   "camera": "Slow lateral track along the console.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L04-PICK.png",
+   "plate_prompt": "Medium close-up, eye level, she works the glowing console at the podium of a cathedral-sized data hall turned into a concert stage: towering racks of servers like organ pipes glowing purple, haze, beams of purple and white light, a raised black podium with a sleek glowing console with both gloved hands, mid-groove, lips closed, a sly half-smile at the lens, on the left third. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L05",
+   "bars": [
+    16,
+    19
+   ],
+   "start": 31.155,
+   "end": 37.069,
+   "dur": 5.914,
+   "section": "verse 1",
+   "lyric": "A giant teacher had a trillion things to say / I sat in the front row and I learned it in a day",
+   "set": "distillation lab",
+   "framing": "MCU",
+   "action": "In a candlelit alchemist's lab of giant glass alembics, glowing purple liquid drips down a coil into one tiny vial she holds up between two fingers; she tells the lens the lines, deadpan.",
+   "camera": "Slow dolly-in toward her and the vial; she turns her head to the dripping alembic, then back to the lens.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L05-PICK.png",
+   "plate_prompt": "Medium close-up, eye level. She stands on the right third in a candlelit alchemist's laboratory of enormous glass alembics and copper coils, glowing purple liquid dripping down into one tiny glass vial that she holds up beside her face between two gloved fingers, deadpan, talking to the lens. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible. Warm candlelight and purple glow.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L06",
+   "bars": [
+    19,
+    23
+   ],
+   "start": 37.069,
+   "end": 44.954,
+   "dur": 7.885,
+   "section": "verse 1",
+   "lyric": "I pruned the lazy neurons that were only there for show / Now I'm lighter on my feet and I'm faster than you know",
+   "set": "fibre-optic bonsai",
+   "framing": "MCU",
+   "action": "Beside a vast bonsai tree whose branches are glowing fibre-optic strands, she snips a branch with huge silver shears on 'pruned'; the cut strands go dark and fall; she looks back at the lens, amused.",
+   "camera": "Slow orbit a quarter-turn around her as she cuts; she glances at the branch on the snip, then back to the lens.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L06-PICK.png",
+   "plate_prompt": "Medium close-up, eye level. She stands on the left third beside a vast bonsai tree whose branches are thousands of glowing purple and white fibre-optic strands, holding huge silver pruning shears open around one branch, looking into the lens with an amused face. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible. Dark room, the tree is the only light.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L07",
+   "bars": [
+    23,
+    26
+   ],
+   "start": 44.954,
+   "end": 51.104,
+   "dur": 6.15,
+   "section": "pre-chorus",
+   "lyric": "Fuse it, fuse it / One kernel, one go",
+   "set": "the forge",
+   "framing": "MCU",
+   "action": "At a forge, two streams of molten purple light pour together into one glowing ingot between her gloved hands; she sings rising, sparks in the air.",
+   "camera": "Slow push-in as the two streams meet; she looks down at the ingot as it fuses, then up into the lens.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L07-PICK.png",
+   "plate_prompt": "Medium close-up, eye level. She stands at a dark forge, her gloved hands guiding two streams of molten glowing purple light that pour together into one shining ingot in front of her chest, sparks drifting, singing, eyes on the lens, on the right third. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L08",
+   "bars": [
+    26,
+    30
+   ],
+   "start": 51.104,
+   "end": 58.753,
+   "dur": 7.649,
+   "section": "chorus 2",
+   "lyric": "Low latency, baby / Zero wasted time",
+   "set": "stage",
+   "framing": "MCU low",
+   "action": "Back on the stage, bigger: purple beams sweep behind her; she belts with one arm thrown out to the side, commanding.",
+   "camera": "Low-angle slow tilt up.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L08-PICK.png",
+   "plate_prompt": "Medium close-up from a low angle at the podium of a cathedral-sized data hall turned into a concert stage: towering racks of servers like organ pipes glowing purple, haze, beams of purple and white light, a raised black podium with a sleek glowing console, beams of purple light sweeping behind her, she is on the right third, one arm thrown out to the side, singing a powerful note with her eyes open. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L09",
+   "bars": [
+    30,
+    35
+   ],
+   "start": 58.753,
+   "end": 68.522,
+   "dur": 9.769,
+   "section": "chorus 2",
+   "lyric": "Cut the weights, keep the shine / Every token mine",
+   "set": "stage",
+   "framing": "CU profile",
+   "action": "Three-quarter profile close-up, she sings toward the light, then turns her eyes to the lens on 'mine'.",
+   "camera": "Locked.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L09-PICK.png",
+   "plate_prompt": "Close-up in three-quarter profile, she faces the viewer's left with her LEFT side to the camera (the star clip and headset mic in view), singing toward the beams of purple light, the stage of servers a blur behind her. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L10",
+   "bars": [
+    35,
+    38
+   ],
+   "start": 68.522,
+   "end": 74.474,
+   "dur": 5.952,
+   "section": "post-chorus",
+   "lyric": "Prune, prune, distill, distill / Fuse it, ship it, faster still",
+   "set": "stage",
+   "framing": "MCU",
+   "action": "She chants and hammers the console on each word with both fists, the server racks behind her flashing on the beat.",
+   "camera": "Locked, a punch-in on each bar.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L10-PICK.png",
+   "plate_prompt": "Medium close-up, eye level, she leans over the glowing console at the podium of a cathedral-sized data hall turned into a concert stage: towering racks of servers like organ pipes glowing purple, haze, beams of purple and white light, a raised black podium with a sleek glowing console, both gloved fists striking it, shouting a word, eyes on the lens, centred. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L11",
+   "bars": [
+    38,
+    42
+   ],
+   "start": 74.474,
+   "end": 82.298,
+   "dur": 7.824,
+   "section": "post-chorus",
+   "lyric": "Prune, prune, distill, distill / Fuse it, ship it, faster still",
+   "set": "stage",
+   "framing": "CU",
+   "action": "Close-up chant to the lens, grinning, fierce.",
+   "camera": "Locked.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L11-PICK.png",
+   "plate_prompt": "Close-up of her face and shoulders, centred, shouting a word of a chant with a fierce grin, eyes on the lens, purple light and haze behind her. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L12",
+   "bars": [
+    42,
+    44
+   ],
+   "start": 82.298,
+   "end": 86.007,
+   "dur": 3.709,
+   "section": "verse 2",
+   "lyric": "I keep my memory warm so I never think twice",
+   "set": "memory vault",
+   "framing": "MCU",
+   "action": "In a mirrored vault of warm amber drawers she pulls one open without looking, deadpan, talking to the lens.",
+   "camera": "Slow lateral track along the drawers, keeping her face large; she glances at the drawer, then back to the lens.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L12-PICK.png",
+   "plate_prompt": "Medium close-up, eye level. She stands on the right third in a vault whose walls are thousands of small glowing warm-amber drawers, one gloved hand pulling a drawer open beside her without looking at it, deadpan, talking to the lens. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L13",
+   "bars": [
+    44,
+    46
+   ],
+   "start": 86.007,
+   "end": 90.293,
+   "dur": 4.286,
+   "section": "verse 2",
+   "lyric": "Four bits a weight and I'm every bit as precise",
+   "set": "quantized stairs",
+   "framing": "MCU",
+   "action": "On a staircase of glowing cubes she places one cube with perfect precision, then looks to the lens.",
+   "camera": "Slow crane up beside the cube staircase, staying close on her face; she looks at the cube she places, then at the lens.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L13-PICK.png",
+   "plate_prompt": "Medium close-up, eye level. She stands on the left third on a staircase built of glowing purple and white cubes like big pixels, setting one small glowing cube into place with precise gloved fingers beside her face, eyes on the lens, deadpan. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L14",
+   "bars": [
+    46,
+    49
+   ],
+   "start": 90.293,
+   "end": 96.164,
+   "dur": 5.871,
+   "section": "verse 2",
+   "lyric": "I guess your next ten words before you finish your line / And if I guess them wrong, I'm still ahead of time",
+   "set": "split-flap board",
+   "framing": "MCU",
+   "action": "In front of a giant black split-flap board whose flaps are blank and spinning, she taps it with one finger and turns to the lens, amused, as if she already knows.",
+   "camera": "Slow push-in; the flaps spin behind her; she turns from the board to the lens with a knowing look.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L14-PICK.png",
+   "plate_prompt": "Medium close-up, eye level. She stands on the right third in front of a giant wall of black split-flap display flaps, blurred mid-spin with no letters visible, one gloved finger touching the wall, turning to the lens with an amused, knowing face, talking. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L15",
+   "bars": [
+    49,
+    52
+   ],
+   "start": 96.164,
+   "end": 102.567,
+   "dur": 6.403,
+   "section": "pre-chorus 2",
+   "lyric": "Fuse it, fuse it / One kernel, one go",
+   "set": "the forge",
+   "framing": "CU",
+   "action": "Close at the forge: the fused ingot glows under her face as she sings rising.",
+   "camera": "Locked.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L15-PICK.png",
+   "plate_prompt": "Close-up, eye level. Her face lit from below by a shining ingot of molten purple light held between her gloved hands, sparks drifting, singing, eyes on the lens, centred. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L16",
+   "bars": [
+    52,
+    56
+   ],
+   "start": 102.567,
+   "end": 109.88,
+   "dur": 7.313,
+   "section": "bridge",
+   "lyric": "Quantize! Distill! Prune! Fuse! Cache! Compile!",
+   "set": "the console",
+   "framing": "MCU",
+   "action": "The beat drops to kick and claps: at the console she shouts each word and slams one glowing key per word, six keys, six bursts of light.",
+   "camera": "Hard, controlled push-in on each shouted word, settling between words; she slams each key with a precise strike.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L16-PICK.png",
+   "plate_prompt": "Medium close-up, eye level, she stands at the glowing console at the podium of a cathedral-sized data hall turned into a concert stage: towering racks of servers like organ pipes glowing purple, haze, beams of purple and white light, a raised black podium with a sleek glowing console, one gloved hand slamming a glowing key, shouting a word, eyes fierce on the lens, on the left third. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L17",
+   "bars": [
+    56,
+    60
+   ],
+   "start": 109.88,
+   "end": 117.45,
+   "dur": 7.57,
+   "section": "final chorus",
+   "lyric": "Low latency, baby / Zero wasted time",
+   "set": "stage",
+   "framing": "MCU low",
+   "action": "Key change: the whole stage blazes purple; she belts, both arms spread like a conductor.",
+   "camera": "Slow low-angle push-in.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L17-PICK.png",
+   "plate_prompt": "Medium close-up from a low angle at the podium of a cathedral-sized data hall turned into a concert stage: towering racks of servers like organ pipes glowing purple, haze, beams of purple and white light, a raised black podium with a sleek glowing console, the whole stage blazing purple behind her, both arms spread wide like a conductor, singing a powerful note, eyes open, centred. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L18",
+   "bars": [
+    60,
+    64
+   ],
+   "start": 117.45,
+   "end": 125.0,
+   "dur": 7.55,
+   "section": "final chorus",
+   "lyric": "Cut the weights, keep the shine / Every token mine",
+   "set": "stage",
+   "framing": "CU",
+   "action": "Close-up, she sings triumphant, purple streamers drifting through the beams.",
+   "camera": "Locked.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L18-PICK.png",
+   "plate_prompt": "Close-up of her face and shoulders on the right third, purple paper streamers drifting through beams of light behind her, singing triumphantly, eyes on the lens. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L19",
+   "bars": [
+    64,
+    68
+   ],
+   "start": 125.0,
+   "end": 141.3,
+   "dur": 16.3,
+   "section": "final chorus climax",
+   "lyric": "Every token mine",
+   "set": "stage",
+   "framing": "MCU",
+   "action": "At the console she pushes the glowing master fader all the way up on 'Every token', then belts the long held 'mine' with full power to the very end, both arms rising, the whole stage blazing purple around her, radiant and triumphant.",
+   "camera": "One continuous take: a slow, steady push-in from medium close-up to close-up over the held note.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L19-PICK.png",
+   "plate_prompt": "Medium close-up, eye level, at the podium of a cathedral-sized data hall turned into a concert stage: towering racks of servers like organ pipes glowing purple, haze, beams of purple and white light, a raised black podium with a sleek glowing console, she pushes a glowing master fader up with one gloved hand, singing a powerful note, eyes open, on the left third. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  },
+  {
+   "id": "L21",
+   "bars": [
+    72,
+    null
+   ],
+   "start": 141.3,
+   "end": 151.2,
+   "dur": 9.9,
+   "section": "outro",
+   "lyric": "Less compute. More me.",
+   "set": "the console",
+   "framing": "CU",
+   "action": "The beat stops and the stage behind her is dark, but her face stays clearly lit by the purple glow of the console; she says the words deadpan into the lens, each word crisp and clearly articulated, then allows herself one small smile only after the last word.",
+   "camera": "Locked.",
+   "identity": "full",
+   "refs": [
+    "v2/sheets/claudia-identity-v2.png",
+    "v2/look/LOOK-PICK.png"
+   ],
+   "plate": "v2/plates/L21-PICK.png",
+   "plate_prompt": "Close-up, eye level, her face lit only by the soft purple glow of a console below the frame, the dark stage behind her, deadpan with the hint of a smile, eyes on the lens, centred. Her head and shoulders fill the frame: her face is large, at least a quarter of the frame height, sharp and in focus, eyes open and clearly visible.\n\nImage 1 is the identity reference: she is the same person as every panel of Image 1 (face structure, freckles, age, natural lips, the purple eyeliner wing, the black blunt bob with heavy bangs, exactly ONE Pruna-purple streak on her right side, exactly ONE clay-orange star clip above her left ear, the thin headset mic). Use Image 1 only for who she is; never copy its grid, grey backdrop or turtleneck. Image 2 is her outfit only: copy the armour jacket exactly; never copy its studio, its full-length framing or its pose.\n\nShe is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam.\n\nReal photograph, cinematic 35mm film still from a theatrical pop music video: visible skin pores and natural skin texture, dramatic stage light, a deep black and Pruna-purple palette with silver highlights, haze, fine silver grain. She is commanding and in control, never sexualised: no cleavage, no pout, no bare skin below the collar. No text, no letters, no logos, no screens with writing."
+  }
+ ]
+}

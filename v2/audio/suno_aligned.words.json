@@ -1,0 +1,1397 @@
+{
+ "chunks": [
+  {
+   "timestamp": [
+    1.197,
+    1.596
+   ],
+   "text": "Prune"
+  },
+  {
+   "timestamp": [
+    1.7155,
+    2.9998
+   ],
+   "text": "it!"
+  },
+  {
+   "timestamp": [
+    3.0476,
+    3.431
+   ],
+   "text": "Distill"
+  },
+  {
+   "timestamp": [
+    3.5505,
+    5.154
+   ],
+   "text": "it!"
+  },
+  {
+   "timestamp": [
+    5.202,
+    5.346
+   ],
+   "text": "Fuse"
+  },
+  {
+   "timestamp": [
+    5.4655,
+    6.989
+   ],
+   "text": "it!"
+  },
+  {
+   "timestamp": [
+    7.037,
+    7.181
+   ],
+   "text": "Ship"
+  },
+  {
+   "timestamp": [
+    7.3005,
+    9.34593
+   ],
+   "text": "it!"
+  },
+  {
+   "timestamp": [
+    9.3514,
+    9.734
+   ],
+   "text": "Low"
+  },
+  {
+   "timestamp": [
+    9.81367,
+    10.6278
+   ],
+   "text": "latency,"
+  },
+  {
+   "timestamp": [
+    10.7236,
+    13.005
+   ],
+   "text": "baby"
+  },
+  {
+   "timestamp": [
+    13.10475,
+    13.484
+   ],
+   "text": "Zero"
+  },
+  {
+   "timestamp": [
+    13.5,
+    14.441
+   ],
+   "text": "wasted"
+  },
+  {
+   "timestamp": [
+    14.54075,
+    16.755
+   ],
+   "text": "time"
+  },
+  {
+   "timestamp": [
+    16.835,
+    16.995
+   ],
+   "text": "Cut"
+  },
+  {
+   "timestamp": [
+    17.07467,
+    17.234
+   ],
+   "text": "the"
+  },
+  {
+   "timestamp": [
+    17.26067,
+    17.521
+   ],
+   "text": "weights,"
+  },
+  {
+   "timestamp": [
+    17.569,
+    17.713
+   ],
+   "text": "keep"
+  },
+  {
+   "timestamp": [
+    17.79267,
+    17.952
+   ],
+   "text": "the"
+  },
+  {
+   "timestamp": [
+    18.0478,
+    20.106
+   ],
+   "text": "shine"
+  },
+  {
+   "timestamp": [
+    20.2018,
+    21.862
+   ],
+   "text": "Every"
+  },
+  {
+   "timestamp": [
+    21.9815,
+    23.777
+   ],
+   "text": "token"
+  },
+  {
+   "timestamp": [
+    23.87675,
+    31.43975
+   ],
+   "text": "mine"
+  },
+  {
+   "timestamp": [
+    31.4435,
+    31.676
+   ],
+   "text": "A"
+  },
+  {
+   "timestamp": [
+    31.7955,
+    32.154
+   ],
+   "text": "giant"
+  },
+  {
+   "timestamp": [
+    32.202,
+    32.553
+   ],
+   "text": "teacher"
+  },
+  {
+   "timestamp": [
+    32.633,
+    32.793
+   ],
+   "text": "had"
+  },
+  {
+   "timestamp": [
+    32.952,
+    33.032
+   ],
+   "text": "a"
+  },
+  {
+   "timestamp": [
+    33.05867,
+    33.511
+   ],
+   "text": "trillion"
+  },
+  {
+   "timestamp": [
+    33.55083,
+    33.75
+   ],
+   "text": "things"
+  },
+  {
+   "timestamp": [
+    33.8695,
+    33.989
+   ],
+   "text": "to"
+  },
+  {
+   "timestamp": [
+    34.09567,
+    34.388
+   ],
+   "text": "say"
+  },
+  {
+   "timestamp": [
+    34.548,
+    34.628
+   ],
+   "text": "I"
+  },
+  {
+   "timestamp": [
+    34.73433,
+    35.106
+   ],
+   "text": "sat"
+  },
+  {
+   "timestamp": [
+    35.226,
+    35.346
+   ],
+   "text": "in"
+  },
+  {
+   "timestamp": [
+    35.42567,
+    35.585
+   ],
+   "text": "the"
+  },
+  {
+   "timestamp": [
+    35.6328,
+    35.824
+   ],
+   "text": "front"
+  },
+  {
+   "timestamp": [
+    35.93067,
+    36.223
+   ],
+   "text": "row"
+  },
+  {
+   "timestamp": [
+    36.303,
+    36.463
+   ],
+   "text": "and"
+  },
+  {
+   "timestamp": [
+    36.622,
+    36.702
+   ],
+   "text": "I"
+  },
+  {
+   "timestamp": [
+    36.74757,
+    37.021
+   ],
+   "text": "learned"
+  },
+  {
+   "timestamp": [
+    37.101,
+    37.181
+   ],
+   "text": "it"
+  },
+  {
+   "timestamp": [
+    37.3005,
+    37.42
+   ],
+   "text": "in"
+  },
+  {
+   "timestamp": [
+    37.58,
+    37.66
+   ],
+   "text": "a"
+  },
+  {
+   "timestamp": [
+    37.76633,
+    38.298
+   ],
+   "text": "day"
+  },
+  {
+   "timestamp": [
+    38.457,
+    38.537
+   ],
+   "text": "I"
+  },
+  {
+   "timestamp": [
+    38.577,
+    38.856
+   ],
+   "text": "pruned"
+  },
+  {
+   "timestamp": [
+    38.90933,
+    39.016
+   ],
+   "text": "the"
+  },
+  {
+   "timestamp": [
+    39.11575,
+    39.495
+   ],
+   "text": "lazy"
+  },
+  {
+   "timestamp": [
+    39.5345,
+    39.973
+   ],
+   "text": "neurons"
+  },
+  {
+   "timestamp": [
+    40.033,
+    40.213
+   ],
+   "text": "that"
+  },
+  {
+   "timestamp": [
+    40.27275,
+    40.452
+   ],
+   "text": "were"
+  },
+  {
+   "timestamp": [
+    40.55175,
+    40.851
+   ],
+   "text": "only"
+  },
+  {
+   "timestamp": [
+    40.8988,
+    41.09
+   ],
+   "text": "there"
+  },
+  {
+   "timestamp": [
+    41.17,
+    41.33
+   ],
+   "text": "for"
+  },
+  {
+   "timestamp": [
+    41.42975,
+    41.809
+   ],
+   "text": "show"
+  },
+  {
+   "timestamp": [
+    41.862,
+    41.968
+   ],
+   "text": "Now"
+  },
+  {
+   "timestamp": [
+    42.048,
+    42.287
+   ],
+   "text": "I'm"
+  },
+  {
+   "timestamp": [
+    42.344,
+    42.686
+   ],
+   "text": "lighter"
+  },
+  {
+   "timestamp": [
+    42.806,
+    42.926
+   ],
+   "text": "on"
+  },
+  {
+   "timestamp": [
+    43.0455,
+    43.245
+   ],
+   "text": "my"
+  },
+  {
+   "timestamp": [
+    43.34475,
+    43.644
+   ],
+   "text": "feet"
+  },
+  {
+   "timestamp": [
+    43.697,
+    43.803
+   ],
+   "text": "and"
+  },
+  {
+   "timestamp": [
+    43.883,
+    44.043
+   ],
+   "text": "I'm"
+  },
+  {
+   "timestamp": [
+    44.12267,
+    44.521
+   ],
+   "text": "faster"
+  },
+  {
+   "timestamp": [
+    44.581,
+    44.761
+   ],
+   "text": "than"
+  },
+  {
+   "timestamp": [
+    44.814,
+    44.92
+   ],
+   "text": "you"
+  },
+  {
+   "timestamp": [
+    44.96,
+    45.08267
+   ],
+   "text": "know"
+  },
+  {
+   "timestamp": [
+    45.08533,
+    45.319
+   ],
+   "text": "Fuse"
+  },
+  {
+   "timestamp": [
+    45.319,
+    46.077
+   ],
+   "text": "it,"
+  },
+  {
+   "timestamp": [
+    46.197,
+    48.67
+   ],
+   "text": "fuse"
+  },
+  {
+   "timestamp": [
+    48.79,
+    49.149
+   ],
+   "text": "it"
+  },
+  {
+   "timestamp": [
+    49.25533,
+    49.628
+   ],
+   "text": "One"
+  },
+  {
+   "timestamp": [
+    49.707,
+    51.08375
+   ],
+   "text": "kernel,"
+  },
+  {
+   "timestamp": [
+    51.1835,
+    51.463
+   ],
+   "text": "one"
+  },
+  {
+   "timestamp": [
+    51.5825,
+    53.7884
+   ],
+   "text": "go"
+  },
+  {
+   "timestamp": [
+    53.7998,
+    54.176
+   ],
+   "text": "Low"
+  },
+  {
+   "timestamp": [
+    54.25567,
+    54.9896
+   ],
+   "text": "latency,"
+  },
+  {
+   "timestamp": [
+    55.0852,
+    57.367
+   ],
+   "text": "baby"
+  },
+  {
+   "timestamp": [
+    57.46675,
+    57.846
+   ],
+   "text": "Zero"
+  },
+  {
+   "timestamp": [
+    57.939,
+    58.723
+   ],
+   "text": "wasted"
+  },
+  {
+   "timestamp": [
+    58.82275,
+    61.037
+   ],
+   "text": "time"
+  },
+  {
+   "timestamp": [
+    61.14333,
+    61.356
+   ],
+   "text": "Cut"
+  },
+  {
+   "timestamp": [
+    61.436,
+    61.596
+   ],
+   "text": "the"
+  },
+  {
+   "timestamp": [
+    61.60933,
+    61.8828
+   ],
+   "text": "weights,"
+  },
+  {
+   "timestamp": [
+    61.9306,
+    62.074
+   ],
+   "text": "keep"
+  },
+  {
+   "timestamp": [
+    62.154,
+    62.314
+   ],
+   "text": "the"
+  },
+  {
+   "timestamp": [
+    62.4098,
+    64.468
+   ],
+   "text": "shine"
+  },
+  {
+   "timestamp": [
+    64.5638,
+    66.223
+   ],
+   "text": "Every"
+  },
+  {
+   "timestamp": [
+    66.343,
+    67.979
+   ],
+   "text": "token"
+  },
+  {
+   "timestamp": [
+    68.07875,
+    68.53942
+   ],
+   "text": "mine"
+  },
+  {
+   "timestamp": [
+    68.54185,
+    68.96267
+   ],
+   "text": "Prune,"
+  },
+  {
+   "timestamp": [
+    68.98933,
+    69.2238
+   ],
+   "text": "prune,"
+  },
+  {
+   "timestamp": [
+    69.2716,
+    69.702
+   ],
+   "text": "distill,"
+  },
+  {
+   "timestamp": [
+    69.75,
+    70.372
+   ],
+   "text": "distill"
+  },
+  {
+   "timestamp": [
+    70.452,
+    71.011
+   ],
+   "text": "Fuse"
+  },
+  {
+   "timestamp": [
+    71.1305,
+    71.75567
+   ],
+   "text": "it,"
+  },
+  {
+   "timestamp": [
+    71.78233,
+    72.287
+   ],
+   "text": "ship"
+  },
+  {
+   "timestamp": [
+    72.407,
+    72.726
+   ],
+   "text": "it,"
+  },
+  {
+   "timestamp": [
+    72.846,
+    73.324
+   ],
+   "text": "faster"
+  },
+  {
+   "timestamp": [
+    73.444,
+    74.04539
+   ],
+   "text": "still"
+  },
+  {
+   "timestamp": [
+    74.04779,
+    74.46767
+   ],
+   "text": "Prune,"
+  },
+  {
+   "timestamp": [
+    74.49433,
+    74.7288
+   ],
+   "text": "prune,"
+  },
+  {
+   "timestamp": [
+    74.7766,
+    76.5638
+   ],
+   "text": "distill,"
+  },
+  {
+   "timestamp": [
+    76.6116,
+    76.995
+   ],
+   "text": "distill"
+  },
+  {
+   "timestamp": [
+    77.05475,
+    77.234
+   ],
+   "text": "Fuse"
+  },
+  {
+   "timestamp": [
+    77.3535,
+    77.766
+   ],
+   "text": "it,"
+  },
+  {
+   "timestamp": [
+    77.819,
+    78.351
+   ],
+   "text": "ship"
+  },
+  {
+   "timestamp": [
+    78.431,
+    78.52229
+   ],
+   "text": "it,"
+  },
+  {
+   "timestamp": [
+    78.53357,
+    78.59
+   ],
+   "text": "faster"
+  },
+  {
+   "timestamp": [
+    78.6858,
+    79.07142
+   ],
+   "text": "still"
+  },
+  {
+   "timestamp": [
+    79.07385,
+    79.97367
+   ],
+   "text": "Prune,"
+  },
+  {
+   "timestamp": [
+    80.00033,
+    80.234
+   ],
+   "text": "prune,"
+  },
+  {
+   "timestamp": [
+    80.282,
+    80.7128
+   ],
+   "text": "distill,"
+  },
+  {
+   "timestamp": [
+    80.7606,
+    81.303
+   ],
+   "text": "distill"
+  },
+  {
+   "timestamp": [
+    81.363,
+    81.543
+   ],
+   "text": "Fuse"
+  },
+  {
+   "timestamp": [
+    81.6625,
+    81.8298
+   ],
+   "text": "it,"
+  },
+  {
+   "timestamp": [
+    81.8776,
+    82.021
+   ],
+   "text": "ship"
+  },
+  {
+   "timestamp": [
+    82.101,
+    82.24943
+   ],
+   "text": "it,"
+  },
+  {
+   "timestamp": [
+    82.31786,
+    82.66
+   ],
+   "text": "faster"
+  },
+  {
+   "timestamp": [
+    82.7238,
+    82.9827
+   ],
+   "text": "still"
+  },
+  {
+   "timestamp": [
+    82.9864,
+    83.138
+   ],
+   "text": "I"
+  },
+  {
+   "timestamp": [
+    83.198,
+    83.378
+   ],
+   "text": "keep"
+  },
+  {
+   "timestamp": [
+    83.4975,
+    83.617
+   ],
+   "text": "my"
+  },
+  {
+   "timestamp": [
+    83.71017,
+    84.335
+   ],
+   "text": "memory"
+  },
+  {
+   "timestamp": [
+    84.43475,
+    84.973
+   ],
+   "text": "warm"
+  },
+  {
+   "timestamp": [
+    85.093,
+    85.213
+   ],
+   "text": "so"
+  },
+  {
+   "timestamp": [
+    85.372,
+    85.372
+   ],
+   "text": "I"
+  },
+  {
+   "timestamp": [
+    85.4358,
+    85.691
+   ],
+   "text": "never"
+  },
+  {
+   "timestamp": [
+    85.739,
+    85.931
+   ],
+   "text": "think"
+  },
+  {
+   "timestamp": [
+    86.0268,
+    86.569
+   ],
+   "text": "twice"
+  },
+  {
+   "timestamp": [
+    86.629,
+    86.809
+   ],
+   "text": "Four"
+  },
+  {
+   "timestamp": [
+    86.888,
+    87.048
+   ],
+   "text": "bits"
+  },
+  {
+   "timestamp": [
+    87.1675,
+    87.287
+   ],
+   "text": "a"
+  },
+  {
+   "timestamp": [
+    87.287,
+    87.447
+   ],
+   "text": "weight"
+  },
+  {
+   "timestamp": [
+    87.52667,
+    87.686
+   ],
+   "text": "and"
+  },
+  {
+   "timestamp": [
+    87.766,
+    88.005
+   ],
+   "text": "I'm"
+  },
+  {
+   "timestamp": [
+    88.1008,
+    88.644
+   ],
+   "text": "every"
+  },
+  {
+   "timestamp": [
+    88.72367,
+    88.883
+   ],
+   "text": "bit"
+  },
+  {
+   "timestamp": [
+    89.0025,
+    89.282
+   ],
+   "text": "as"
+  },
+  {
+   "timestamp": [
+    89.34175,
+    89.84
+   ],
+   "text": "precise"
+  },
+  {
+   "timestamp": [
+    90,
+    90
+   ],
+   "text": "I"
+  },
+  {
+   "timestamp": [
+    90.0478,
+    90.239
+   ],
+   "text": "guess"
+  },
+  {
+   "timestamp": [
+    90.299,
+    90.479
+   ],
+   "text": "your"
+  },
+  {
+   "timestamp": [
+    90.53875,
+    90.718
+   ],
+   "text": "next"
+  },
+  {
+   "timestamp": [
+    90.79767,
+    90.957
+   ],
+   "text": "ten"
+  },
+  {
+   "timestamp": [
+    91.0528,
+    91.436
+   ],
+   "text": "words"
+  },
+  {
+   "timestamp": [
+    91.476,
+    91.676
+   ],
+   "text": "before"
+  },
+  {
+   "timestamp": [
+    91.75567,
+    91.915
+   ],
+   "text": "you"
+  },
+  {
+   "timestamp": [
+    91.99483,
+    92.394
+   ],
+   "text": "finish"
+  },
+  {
+   "timestamp": [
+    92.45375,
+    92.633
+   ],
+   "text": "your"
+  },
+  {
+   "timestamp": [
+    92.73275,
+    93.112
+   ],
+   "text": "line"
+  },
+  {
+   "timestamp": [
+    93.19167,
+    93.351
+   ],
+   "text": "And"
+  },
+  {
+   "timestamp": [
+    93.431,
+    93.511
+   ],
+   "text": "if"
+  },
+  {
+   "timestamp": [
+    93.67,
+    93.83
+   ],
+   "text": "I"
+  },
+  {
+   "timestamp": [
+    93.9098,
+    94.229
+   ],
+   "text": "guess"
+  },
+  {
+   "timestamp": [
+    94.32875,
+    94.628
+   ],
+   "text": "them"
+  },
+  {
+   "timestamp": [
+    94.6758,
+    94.907
+   ],
+   "text": "wrong,"
+  },
+  {
+   "timestamp": [
+    94.947,
+    95.106
+   ],
+   "text": "I'm"
+  },
+  {
+   "timestamp": [
+    95.2018,
+    95.585
+   ],
+   "text": "still"
+  },
+  {
+   "timestamp": [
+    95.6328,
+    95.824
+   ],
+   "text": "ahead"
+  },
+  {
+   "timestamp": [
+    95.944,
+    96.144
+   ],
+   "text": "of"
+  },
+  {
+   "timestamp": [
+    96.18375,
+    96.34023
+   ],
+   "text": "time"
+  },
+  {
+   "timestamp": [
+    96.37747,
+    98.298
+   ],
+   "text": "Fuse"
+  },
+  {
+   "timestamp": [
+    98.4175,
+    99.3508
+   ],
+   "text": "it,"
+  },
+  {
+   "timestamp": [
+    99.4466,
+    100.133
+   ],
+   "text": "fuse"
+  },
+  {
+   "timestamp": [
+    100.2525,
+    100.612
+   ],
+   "text": "it"
+  },
+  {
+   "timestamp": [
+    100.71833,
+    101.09
+   ],
+   "text": "One"
+  },
+  {
+   "timestamp": [
+    101.17,
+    102.54675
+   ],
+   "text": "kernel,"
+  },
+  {
+   "timestamp": [
+    102.6465,
+    102.926
+   ],
+   "text": "one"
+  },
+  {
+   "timestamp": [
+    103.0455,
+    104.68204
+   ],
+   "text": "go"
+  },
+  {
+   "timestamp": [
+    104.68308,
+    105.798
+   ],
+   "text": "Quantize!"
+  },
+  {
+   "timestamp": [
+    105.85775,
+    106.54267
+   ],
+   "text": "Distill!"
+  },
+  {
+   "timestamp": [
+    106.56933,
+    107.9678
+   ],
+   "text": "Prune!"
+  },
+  {
+   "timestamp": [
+    108.0636,
+    108.37767
+   ],
+   "text": "Fuse!"
+  },
+  {
+   "timestamp": [
+    108.40433,
+    109.8028
+   ],
+   "text": "Cache!"
+  },
+  {
+   "timestamp": [
+    109.8986,
+    114.34925
+   ],
+   "text": "Compile!"
+  },
+  {
+   "timestamp": [
+    114.35637,
+    114.734
+   ],
+   "text": "Low"
+  },
+  {
+   "timestamp": [
+    114.78733,
+    115.5478
+   ],
+   "text": "latency,"
+  },
+  {
+   "timestamp": [
+    115.6436,
+    116.17
+   ],
+   "text": "baby"
+  },
+  {
+   "timestamp": [
+    116.27633,
+    116.489
+   ],
+   "text": "Low"
+  },
+  {
+   "timestamp": [
+    116.569,
+    117.3828
+   ],
+   "text": "latency,"
+  },
+  {
+   "timestamp": [
+    117.4786,
+    117.926
+   ],
+   "text": "baby"
+  },
+  {
+   "timestamp": [
+    118.0255,
+    118.324
+   ],
+   "text": "Zero"
+  },
+  {
+   "timestamp": [
+    118.41717,
+    119.282
+   ],
+   "text": "wasted"
+  },
+  {
+   "timestamp": [
+    119.38175,
+    121.676
+   ],
+   "text": "time"
+  },
+  {
+   "timestamp": [
+    121.75567,
+    121.915
+   ],
+   "text": "Cut"
+  },
+  {
+   "timestamp": [
+    121.968,
+    122.074
+   ],
+   "text": "the"
+  },
+  {
+   "timestamp": [
+    122.08733,
+    122.3618
+   ],
+   "text": "weights,"
+  },
+  {
+   "timestamp": [
+    122.4096,
+    122.553
+   ],
+   "text": "keep"
+  },
+  {
+   "timestamp": [
+    122.633,
+    122.793
+   ],
+   "text": "the"
+  },
+  {
+   "timestamp": [
+    122.8886,
+    124.947
+   ],
+   "text": "shine"
+  },
+  {
+   "timestamp": [
+    125.0428,
+    126.622
+   ],
+   "text": "Every"
+  },
+  {
+   "timestamp": [
+    126.742,
+    128.457
+   ],
+   "text": "token"
+  },
+  {
+   "timestamp": [
+    128.55675,
+    141.31149
+   ],
+   "text": "mine"
+  },
+  {
+   "timestamp": [
+    141.31998,
+    141.702
+   ],
+   "text": "Less"
+  },
+  {
+   "timestamp": [
+    141.80175,
+    142.6598
+   ],
+   "text": "compute."
+  },
+  {
+   "timestamp": [
+    142.7396,
+    142.979
+   ],
+   "text": "More"
+  },
+  {
+   "timestamp": [
+    143.0746,
+    143.457
+   ],
+   "text": "me."
+  }
+ ]
+}

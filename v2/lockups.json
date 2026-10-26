@@ -1,0 +1,67 @@
+{
+ "_doc": "Every sung line as a typographic lockup, in song order. k: hook (big, punch on key words) | verse (smaller) | skip (n words shown as nothing: the chopped chant). Rows: CAPS rows are set in Helvetica Condensed Black and justified to the block width; rows starting with ~ are Baskerville SemiBold Italic, lowercase, for the filler words. Words are consumed in order from v2/audio/word_clock.json and must match it.",
+ "groups": [
+  {"k": "hook", "rows": ["PRUNE", "~it!"]},
+  {"k": "hook", "rows": ["DISTILL", "~it!"]},
+  {"k": "hook", "rows": ["FUSE", "~it!"]},
+  {"k": "hook", "rows": ["SHIP", "~it!"]},
+  {"k": "hook", "rows": ["LOW", "LATENCY", "~baby"]},
+  {"k": "hook", "rows": ["ZERO", "WASTED TIME"]},
+  {"k": "hook", "rows": ["CUT THE", "WEIGHTS", "~keep the", "SHINE"]},
+  {"k": "verse", "rows": ["~every"]},
+  {"k": "hook", "rows": ["TOKEN"]},
+  {"k": "hook", "rows": ["MINE"]},
+
+  {"k": "verse", "rows": ["A GIANT", "TEACHER"]},
+  {"k": "verse", "rows": ["~had a", "TRILLION", "~things to say"]},
+  {"k": "verse", "rows": ["~I sat in the", "FRONT ROW"]},
+  {"k": "verse", "rows": ["~and I learned it in a", "DAY"]},
+  {"k": "verse", "rows": ["~I pruned the", "LAZY NEURONS"]},
+  {"k": "verse", "rows": ["~that were only there for", "SHOW"]},
+  {"k": "verse", "rows": ["~now I'm", "LIGHTER", "~on my feet"]},
+  {"k": "verse", "rows": ["~and I'm", "FASTER", "~than you know"]},
+
+  {"k": "hook", "rows": ["FUSE", "~it,"]},
+  {"k": "hook", "rows": ["FUSE", "~it"]},
+  {"k": "hook", "rows": ["ONE", "KERNEL", "~one go"]},
+
+  {"k": "hook", "rows": ["LOW", "LATENCY", "~baby"]},
+  {"k": "hook", "rows": ["ZERO", "WASTED TIME"]},
+  {"k": "hook", "rows": ["CUT THE", "WEIGHTS", "~keep the", "SHINE"]},
+  {"k": "verse", "rows": ["~every"]},
+  {"k": "hook", "rows": ["TOKEN"]},
+  {"k": "hook", "rows": ["MINE"]},
+
+  {"k": "skip", "n": 30},
+
+  {"k": "verse", "rows": ["~I keep my", "MEMORY WARM"]},
+  {"k": "verse", "rows": ["~so I never", "THINK TWICE"]},
+  {"k": "verse", "rows": ["FOUR BITS", "A WEIGHT"]},
+  {"k": "verse", "rows": ["~and I'm every bit as", "PRECISE"]},
+  {"k": "verse", "rows": ["~I guess your", "NEXT TEN WORDS"]},
+  {"k": "verse", "rows": ["~before you finish your", "LINE"]},
+  {"k": "verse", "rows": ["~and if I guess them", "WRONG"]},
+  {"k": "verse", "rows": ["~I'm still", "AHEAD OF TIME"]},
+
+  {"k": "hook", "rows": ["FUSE", "~it,"]},
+  {"k": "hook", "rows": ["FUSE", "~it"]},
+  {"k": "hook", "rows": ["ONE", "KERNEL", "~one go"]},
+
+  {"k": "hook", "rows": ["QUANTIZE"]},
+  {"k": "hook", "rows": ["DISTILL"]},
+  {"k": "hook", "rows": ["PRUNE"]},
+  {"k": "hook", "rows": ["FUSE"]},
+  {"k": "hook", "rows": ["CACHE"]},
+  {"k": "hook", "rows": ["COMPILE"]},
+
+  {"k": "hook", "rows": ["LOW", "LATENCY", "~baby"]},
+  {"k": "hook", "rows": ["LOW", "LATENCY", "~baby"]},
+  {"k": "hook", "rows": ["ZERO", "WASTED TIME"]},
+  {"k": "hook", "rows": ["CUT THE", "WEIGHTS", "~keep the", "SHINE"]},
+  {"k": "verse", "rows": ["~every"]},
+  {"k": "hook", "rows": ["TOKEN"]},
+  {"k": "hook", "rows": ["MINE"]},
+
+  {"k": "hook", "rows": ["LESS COMPUTE.", "MORE ME."]}
+ ]
+}

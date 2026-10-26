@@ -1,0 +1,80 @@
+[
+ {
+  "i": 68,
+  "word": "Fuse",
+  "t": 45.875,
+  "why": "measured vocal onset on the spectrogram; Suno glued it to the previous line"
+ },
+ {
+  "i": 69,
+  "word": "it,",
+  "t": 46.85,
+  "why": "measured vocal onset on the spectrogram; Suno glued it to the previous line"
+ },
+ {
+  "i": 70,
+  "word": "fuse",
+  "t": 47.76,
+  "why": "measured vocal onset on the spectrogram; Suno glued it to the previous line"
+ },
+ {
+  "i": 71,
+  "word": "it",
+  "t": 48.65,
+  "why": "measured vocal onset on the spectrogram; Suno glued it to the previous line"
+ },
+ {
+  "i": 163,
+  "word": "Fuse",
+  "t": 97.35,
+  "why": "measured vocal onset on the spectrogram; Suno glued it to the previous line"
+ },
+ {
+  "i": 164,
+  "word": "it,",
+  "t": 98.3,
+  "why": "measured vocal onset on the spectrogram; Suno glued it to the previous line"
+ },
+ {
+  "i": 165,
+  "word": "fuse",
+  "t": 99.175,
+  "why": "measured vocal onset on the spectrogram; Suno glued it to the previous line"
+ },
+ {
+  "i": 166,
+  "word": "it",
+  "t": 100.0,
+  "why": "measured vocal onset on the spectrogram; Suno glued it to the previous line"
+ },
+ {
+  "i": 88,
+  "word": "Every",
+  "t": 64.235,
+  "why": "measured: 21 dB attack after silence"
+ },
+ {
+  "i": 174,
+  "word": "Fuse!",
+  "t": 107.72,
+  "why": "measured: onset after the silence at 107.65"
+ },
+ {
+  "i": 186,
+  "word": "Cut",
+  "t": 121.8,
+  "why": "measured: attack right after the consonant closure (energy min), same signature as the other choruses"
+ },
+ {
+  "i": 187,
+  "word": "the",
+  "t": 121.93,
+  "why": "kept in order after the measured Cut"
+ },
+ {
+  "i": 188,
+  "word": "weights,",
+  "t": 122.03,
+  "why": "kept in order after the measured Cut"
+ }
+]

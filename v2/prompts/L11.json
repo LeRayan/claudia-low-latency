@@ -1,0 +1,11 @@
+{
+ "seed": 7007,
+ "duration": 8,
+ "resolution": "768p",
+ "prompt_upsampler": "off",
+ "aspect_ratio": "16:9",
+ "keep_audio": true,
+ "mode": "speed",
+ "model": "p-video-2-pro-reference",
+ "inputs": "identity sheet + plate as references, the vocal-stem window as audio"
+}

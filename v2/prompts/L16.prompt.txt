@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is Claudia, the woman whose identity comes from <Picture 1>, a ten-panel photographic sheet of her face from every angle with expressions, and whose outfit, pose and surroundings in this shot come from <Picture 2>. She is a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek. She wears a sculptural jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, a thin silver line along every seam. <Picture 1> is only a reference for who she is; its grid, grey backdrop and black t-shirt never appear.
+<Subject 2> is the setting of <Picture 2>: the console, exactly as shown there, with its light.
+<Picture 2> is the composition anchor of [Shot 1]: the shot is framed like it.
+<Audio 1> is Claudia's own voice alone (the vocal only, no music), <Subject 1> (S1), and the complete soundtrack of this video. Her mouth follows <Audio 1> exactly.
+
+summary:
+[reference generation + audio reuse] One continuous MCU shot of <Subject 1> in <Subject 2>, singing the words of <Audio 1> with precise lip sync. <Picture 1> fixes her identity, <Picture 2> fixes the framing, her outfit and the place, and <Audio 1> is copied as the complete soundtrack.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - her face structure, freckles, adult age, black blunt bob with heavy bangs, the single purple streak on her right side, the single star clip on her left side, the headset mic and her outfit are retained exactly.
+<Subject 2> (appears in [Shot 1]): fully_preserved - the place and its light are retained as in <Picture 2>.
+<Picture 2> ([Shot 1] composition): fully_preserved - framing, her position and scale in the frame are retained.
+<Audio 1>: fully_copy - <Audio 1> is reused 1:1 as the target video's complete final audio track.
+
+detailed_description:
+The target video is a cinematic 35mm music-video shot: real skin texture with visible pores and light freckles, cool blue-black light, shallow depth of field, fine silver film grain, natural true-to-life exposure, her purple streak and clay-orange star clip the only color accents on her, no text or graphics anywhere.
+[Shot 1] The shot opens exactly as <Picture 2>: The beat drops to kick and claps: at the console she shouts each word and slams one glowing key per word, six keys, six bursts of light. Camera: Hard, controlled push-in on each shouted word, settling between words; she slams each key with a precise strike. The whole shot is one continuous take with no cuts. Through the shot <Subject 1> (S1) sings in exact sync with <Audio 1>, her lips, jaw and tongue matching every syllable, the mouth opening wide on the held open vowels and closing between phrases: <d>[English] one go Quantize! Distill! Prune! Fuse! Cache! Compile!.</d>  Only her own lead vocal moves her mouth: she never mouths backing vocals, chants, harmonies or ad-libs, and whenever <Audio 1> is silent her lips are closed. Between phrases she closes her lips; her shoulders and body stay steady with no bouncing; her head, eyes and hands move with deliberate, controlled intent, and she never turns away from the camera for long. The purple streak stays on her right side of the bangs, the star clip above her left ear, the headset mic on her left cheek, in every frame. Her face is the same 28-year-old adult woman from <Picture 1> throughout: the same angular jaw, cheekbones, freckles and eyes, never younger.
+
+overall_soundscape:
+The soundtrack is <Audio 1> copied in full; no added ambience or sound effects.
+
+non_diegetic_music:
+N/A

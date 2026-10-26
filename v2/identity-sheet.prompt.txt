@@ -1,0 +1,11 @@
+Edit Image 1, a photographic identity sheet of one woman (ten panels, two rows of five). Keep the grid, the panel order, every head angle, the grey backdrop, the light, the film grain, her bone structure, her eyes, her freckles, the black blunt jaw-length bob with heavy bangs, the single Pruna-purple (#9B1DBE) streak on her right side, the single small flat clay-orange eight-pointed star clip above her left ear and the thin headset microphone, exactly.
+
+Change her styling to editorial, not glamour, in every panel:
+- Makeup: matte natural skin with her freckles showing, natural brows, bare natural lips with no gloss and no lipstick, and one sharp graphic purple (#9B1DBE) eyeliner wing on each eye, thin and precise. No heavy smoky eye, no contour.
+- Mouth: relaxed and natural, never pouting. Lips are not enlarged.
+- Expressions, bottom row left to right: commanding, chin slightly lifted, eyes on the lens; singing a powerful open note with eyes OPEN and fierce; amused half-smile, one eyebrow raised; calm deadpan; a big genuine laugh.
+- Clothing in every panel: a high black ribbed turtleneck covering the neck up to the jaw.
+
+She is a 28-year-old adult woman: angular face, defined cheekbones, strong jawline. Real photograph, visible skin pores, fine 35mm silver grain. No text, no letters, no labels, no numbers, no logos.
+
+{"quality": "max", "number_of_images": 2, "aspect_ratio": "16:9", "output_format": "png", "moderation": "low", "refs": ["sheets/claudia-identity.png"]}

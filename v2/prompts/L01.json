@@ -1,0 +1,7 @@
+{
+ "seed": 7007,
+ "resolution": "768p",
+ "prompt_upsampling": true,
+ "model": "p-video-2-pro-reference",
+ "inputs": "plate as portrait, the vocal-stem window as audio"
+}

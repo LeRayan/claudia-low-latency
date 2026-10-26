@@ -1,0 +1,13 @@
+.env
+.venv*/
+__pycache__/
+*.mp4
+*.wav
+*.m4a
+v2/audio/stems/
+v2/audio/windows/
+v2/clips/
+v2/edit/
+v2/fx/
+spend.csv
+!receipts/spend.csv

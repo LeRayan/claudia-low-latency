@@ -1,0 +1,34 @@
+Prune it! Distill it! Fuse it! Ship it!
+Low latency, baby
+Zero wasted time
+Cut the weights, keep the shine
+Every token mine
+A giant teacher had a trillion things to say
+I sat in the front row and I learned it in a day
+I pruned the lazy neurons that were only there for show
+Now I'm lighter on my feet and I'm faster than you know
+Fuse it, fuse it
+One kernel, one go
+Low latency, baby
+Zero wasted time
+Cut the weights, keep the shine
+Every token mine
+Prune, prune, distill, distill
+Fuse it, ship it, faster still
+Prune, prune, distill, distill
+Fuse it, ship it, faster still
+Prune, prune, distill, distill
+Fuse it, ship it, faster still
+I keep my memory warm so I never think twice
+Four bits a weight and I'm every bit as precise
+I guess your next ten words before you finish your line
+And if I guess them wrong, I'm still ahead of time
+Fuse it, fuse it
+One kernel, one go
+Quantize! Distill! Prune! Fuse! Cache! Compile!
+Low latency, baby
+Low latency, baby
+Zero wasted time
+Cut the weights, keep the shine
+Every token mine
+Less compute. More me.

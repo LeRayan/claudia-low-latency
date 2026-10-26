@@ -1,0 +1,433 @@
+date,model,what,est_cost
+2026-10-23,openai/gpt-image-2.5-sunburst,identity sheet v1 x3 xhigh 16:9,0.750
+2026-10-23,openai/gpt-image-2.5-sunburst,identity sheet v1 x3 max 16:9,1.500
+2026-10-23,openai/gpt-image-2.5-sunburst,identity sheet v2 side fix x2 max 16:9,1.000
+2026-10-23,openai/gpt-image-2.5-sunburst,identity sheet v3 panel4 back view x2 max 16:9,1.000
+2026-10-23,openai/gpt-image-2.5-sunburst,test plate rooftop x2 xhigh 16:9,0.500
+2026-10-23,p-video-2-pro-reference,pipeline test rooftop lipsync 5s 768p,0.208
+2026-10-23,minimax/music-2.5,song half-the-size x2,0.300
+2026-10-23,vaibhavs10/incredibly-fast-whisper,transcribe 2 song takes,0.020
+2026-10-23,p-video-2-pro-reference,chorus1 test rooftop 12s 768p,0.470
+2026-10-23,vaibhavs10/incredibly-fast-whisper,transcribe x2,0.020
+2026-10-23,p-video-2-pro-reference,suno chorus1 rooftop seed1001 12s 768p,0.470
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S01 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S07 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S04 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S05 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S09 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S08 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S02 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S03 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S10 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S11 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S16 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S15 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S12 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S13 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S14 x2 xhigh 16:9,0.500
+2026-10-23,p-video-2-pro-reference,clip S07 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S05 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S08 v1 5s 768p,0.208
+2026-10-23,p-video-2-pro-reference,clip S06 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S01 v1 7s 768p,0.284
+2026-10-23,p-video-2-pro-reference,clip S03 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S02 v1 5s 768p,0.208
+2026-10-23,p-video-2-pro-reference,clip S09 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S04 v1 9s 768p,0.356
+2026-10-23,p-video-2-pro-reference,clip S10 v1 9s 768p,0.356
+2026-10-23,p-video-2-pro-reference,clip S11 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S12 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S13 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S15 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S16 v1 8s 768p,0.321
+2026-10-23,p-video-2-pro-reference,clip S14 v1 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S03 v2 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S13 v2 7s 768p,0.282
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S03 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S09 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S10 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S01 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S04 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S07 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S05 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S13 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S15 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S16 x2 xhigh 16:9,0.500
+2026-10-23,p-video-2-pro-reference,clip S10 v3 9s 768p,0.356
+2026-10-23,p-video-2-pro-reference,clip S03 v3 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S09 v3 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S01 v3 7s 768p,0.284
+2026-10-23,p-video-2-pro-reference,clip S05 v3 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S04 v3 9s 768p,0.356
+2026-10-23,p-video-2-pro-reference,clip S13 v3 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S16 v3 8s 768p,0.321
+2026-10-23,p-video-2-pro-reference,clip S15 v3 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S07 v3 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S03 v4 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S16 v4 8s 768p,0.321
+2026-10-23,p-video-2-pro-reference,clip S16 v5 8s 768p,0.331
+2026-10-23,p-video-2-pro-reference,clip S03 v5 7s 768p,0.292
+2026-10-23,ryan5453/demucs,vocal stem split htdemucs,0.100
+2026-10-23,vaibhavs10/incredibly-fast-whisper,transcribe x1,0.010
+2026-10-23,p-video-2-pro-reference,clip S04 vs 9s 768p,0.356
+2026-10-23,p-video-2-pro-reference,clip S06 vs 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S07 vs 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S01 vs 7s 768p,0.284
+2026-10-23,p-video-2-pro-reference,clip S09 vs 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S15 vs 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S14 vs 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S12 vs 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S13 vs 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S10 vs 9s 768p,0.356
+2026-10-23,p-video-2-pro-reference,clip S08 vs 5s 768p,0.208
+2026-10-23,p-video-2-pro-reference,clip S03 vs 7s 768p,0.292
+2026-10-23,p-video-2-pro-reference,clip S02 vs 5s 768p,0.208
+2026-10-23,p-video-2-pro-reference,clip S11 vs 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S16 vs 8s 768p,0.331
+2026-10-23,p-video-2-pro-reference,clip S05 vs 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S03 vs2 7s 768p,0.292
+2026-10-23,p-video-2-pro-reference,clip S11 vs2 7s 768p,0.292
+2026-10-23,p-video-2-pro-reference,clip S06 vs2 7s 768p,0.292
+2026-10-23,p-video-2-pro-reference,clip S12 vs2 7s 768p,0.292
+2026-10-23,openai/gpt-image-2.5-sunburst,plate S12 x2 xhigh 16:9,0.500
+2026-10-23,p-video-2-pro-reference,clip S12 vs3 7s 768p,0.292
+2026-10-23,openai/gpt-image-2.5-sunburst,identity sheet purple streak x2 max 16:9,1.000
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S08 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S05 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S06 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S07 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S03 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S01 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S04 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S02 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S09 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S11 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S10 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S13 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S14 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S16 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S15 x1 xhigh 16:9,0.250
+2026-10-23,openai/gpt-image-2.5-sunburst,purple recolor S12 x1 xhigh 16:9,0.250
+2026-10-23,p-video-2-pro-reference,clip S02 vt 5s 768p,0.208
+2026-10-23,p-video-2-pro-reference,clip S15 vt 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S08 vt 5s 768p,0.208
+2026-10-23,p-video-2-pro-reference,clip S09 vt 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S05 vt 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S13 vt 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S01 vt 7s 768p,0.284
+2026-10-23,p-video-2-pro-reference,clip S14 vt 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S06 vt 7s 768p,0.292
+2026-10-23,p-video-2-pro-reference,clip S04 vt 9s 768p,0.356
+2026-10-23,p-video-2-pro-reference,clip S12 vt 7s 768p,0.292
+2026-10-23,p-video-2-pro-reference,clip S07 vt 7s 768p,0.282
+2026-10-23,p-video-2-pro-reference,clip S11 vt 7s 768p,0.292
+2026-10-23,p-video-2-pro-reference,clip S16 vt 8s 768p,0.331
+2026-10-23,p-video-2-pro-reference,clip S10 vt 9s 768p,0.356
+2026-10-23,p-video-2-pro-reference,clip S03 vt 7s 768p,0.292
+2026-10-23,p-video-upscale,upscale 15 segments to 4k (logged manually after stuck job),8.960
+2026-10-23,p-video-upscale,upscale 1 segments to 4k,0.640
+2026-10-23,openai/gpt-image-2.5-sunburst,v2 identity sheet editorial x2 max 16:9,1.000
+2026-10-23,openai/gpt-image-2.5-sunburst,v2 couture look turnaround x3 xhigh 16:9,0.750
+2026-10-23,vaibhavs10/incredibly-fast-whisper,transcribe x2,0.020
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L03 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L02 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L04 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L01 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L05 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L07 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L06 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L08 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L09 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L10 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L12 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L13 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L14 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L16 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L15 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L11 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L17 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L18 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L20 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L19 x2 xhigh 16:9,0.500
+2026-10-23,openai/gpt-image-2.5-sunburst,plate L21 x2 xhigh 16:9,0.500
+2026-10-23,ryan5453/demucs,v2 vocal stem split,0.100
+2026-10-24,cjwbw/demucs,v2 vocal stem split (fallback; ryan5453 run stuck),0.050
+2026-10-24,vaibhavs10/incredibly-fast-whisper,transcribe x1,0.010
+2026-10-24,p-video-2-pro-reference,clip L02 v1 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L08 v1 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L07 v1 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L05 v1 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L03 v1 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L04 v1 10s 768p,0.405
+2026-10-24,p-video-2-pro-reference,clip L06 v1 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L01 v1 8s 768p,0.329
+2026-10-24,p-video-2-pro-reference,clip L09 v1 10s 768p,0.405
+2026-10-24,p-video-2-pro-reference,clip L10 v1 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L11 v1 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L12 v1 5s 768p,0.215
+2026-10-24,p-video-2-pro-reference,clip L13 v1 5s 768p,0.215
+2026-10-24,p-video-2-pro-reference,clip L14 v1 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L16 v1 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L17 v1 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L18 v1 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L19 v1 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L15 v1 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L20 v1 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L21 v1 10s 768p,0.404
+2026-10-24,vaibhavs10/incredibly-fast-whisper,transcribe x1,0.010
+2026-10-24,vaibhavs10/incredibly-fast-whisper,transcribe x1,0.010
+2026-10-24,p-video-2-pro-reference,clip L02 v2 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L03 v2 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L08 v2 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L17 v2 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L09 v2 10s 768p,0.405
+2026-10-24,p-video-2-pro-reference,clip L01 v2 8s 768p,0.329
+2026-10-24,p-video-2-pro-reference,clip L19 v2 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L18 v2 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L20 v2 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L21 v2 10s 768p,0.404
+2026-10-24,vaibhavs10/incredibly-fast-whisper,transcribe x3,0.030
+2026-10-24,vaibhavs10/incredibly-fast-whisper,transcribe x3,0.030
+2026-10-24,p-video-2-pro-reference,clip L06 v3 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L04 v3 10s 768p,0.405
+2026-10-24,p-video-2-pro-reference,clip L08 v3 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L05 v3 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L07 v3 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L02 v3 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L03 v3 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L01 v3 8s 768p,0.329
+2026-10-24,p-video-2-pro-reference,clip L09 v3 10s 768p,0.405
+2026-10-24,p-video-2-pro-reference,clip L10 v3 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L11 v3 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L12 v3 5s 768p,0.215
+2026-10-24,p-video-2-pro-reference,clip L13 v3 5s 768p,0.215
+2026-10-24,p-video-2-pro-reference,clip L14 v3 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L15 v3 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L17 v3 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L18 v3 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L16 v3 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L20 v3 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L19 v3 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L21 v3 10s 768p,0.404
+2026-10-24,p-video-2-pro-reference,clip L10 v4 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L11 v4 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L14 v4 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L07 v4 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L12 v4 5s 768p,0.214
+2026-10-24,p-video-2-pro-reference,clip L09 v4 10s 768p,0.404
+2026-10-24,p-video-2-pro-reference,clip L08 v4 8s 768p,0.329
+2026-10-24,p-video-2-pro-reference,clip L15 v4 6s 768p,0.256
+2026-10-24,p-video-2-pro-reference,clip L17 v4 7s 768p,0.294
+2026-10-24,p-video-2-pro-reference,clip L16 v4 7s 768p,0.294
+2026-10-24,p-video-2-pro-reference,clip L18 v4 8s 768p,0.331
+2026-10-24,p-video-2-pro-reference,clip L20 v4 8s 768p,0.329
+2026-10-24,p-video-2-pro-reference,clip L21 v4 10s 768p,0.405
+2026-10-24,p-video-2-pro-reference,clip L13 v4 6s 768p,0.251
+2026-10-24,p-video-2-pro-avatar,avatar test L02 upsampling off (7.9s 768p),0.315
+2026-10-24,p-video-2-pro-avatar,avatar test L02 upsampling on (7.9s 768p),0.315
+2026-10-24,p-video-2-pro-avatar,avatar clip L03 v5 (5.9s 768p),0.237
+2026-10-24,p-video-2-pro-avatar,avatar clip L08 v5 (7.6s 768p),0.306
+2026-10-24,p-video-2-pro-avatar,avatar clip L02 v5 (7.9s 768p),0.315
+2026-10-24,p-video-2-pro-avatar,avatar clip L04 v5 (9.9s 768p),0.394
+2026-10-24,p-video-2-pro-avatar,avatar clip L09 v5 (9.8s 768p),0.391
+2026-10-24,p-video-2-pro-avatar,avatar clip L11 v5 (7.8s 768p),0.313
+2026-10-24,p-video-2-pro-avatar,avatar clip L10 v5 (6.0s 768p),0.238
+2026-10-24,p-video-2-pro-avatar,avatar clip L01 v5 (7.5s 768p),0.300
+2026-10-24,p-video-2-pro-avatar,avatar clip L15 v5 (6.4s 768p),0.256
+2026-10-24,p-video-2-pro-avatar,avatar clip L17 v5 (7.5s 768p),0.298
+2026-10-24,p-video-2-pro-avatar,avatar clip L18 v5 (8.3s 768p),0.333
+2026-10-24,p-video-2-pro-avatar,avatar clip L19 v5 (7.9s 768p),0.315
+2026-10-24,p-video-2-pro-avatar,avatar clip L20 v5 (7.6s 768p),0.306
+2026-10-24,p-video-2-pro-avatar,avatar clip L21 v5 (9.9s 768p),0.396
+2026-10-24,p-video-2-pro-avatar,avatar clip L21 v6 (lit) (9.9s 768p),0.396
+2026-10-24,p-video-2-pro-avatar,avatar clip L03 v7 (6.4s 768p),0.257
+2026-10-24,p-video-2-pro-reference,clip L07 v7 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L14 v7 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L13 v7 6s 768p,0.251
+2026-10-24,p-video-2-pro-reference,clip L05 v7 6s 768p,0.255
+2026-10-24,p-video-2-pro-avatar,avatar clip L08 v7 (8.1s 768p),0.326
+2026-10-24,p-video-2-pro-reference,clip L16 v7 7s 768p,0.294
+2026-10-24,p-video-2-pro-reference,clip L12 v7 5s 768p,0.214
+2026-10-24,p-video-2-pro-avatar,avatar clip L10 v7 (6.5s 768p),0.258
+2026-10-24,p-video-2-pro-reference,clip L06 v7 8s 768p,0.330
+2026-10-24,p-video-2-pro-avatar,avatar clip L11 v7 (8.3s 768p),0.333
+2026-10-24,p-video-2-pro-avatar,avatar clip L09 v7 (10.3s 768p),0.411
+2026-10-24,p-video-2-pro-avatar,avatar clip L02 v7 (8.4s 768p),0.335
+2026-10-24,p-video-2-pro-avatar,avatar clip L04 v7 (10.4s 768p),0.414
+2026-10-24,p-video-2-pro-avatar,avatar clip L18 v7 (8.8s 768p),0.353
+2026-10-24,p-video-2-pro-avatar,avatar clip L17 v7 (8.0s 768p),0.318
+2026-10-24,p-video-2-pro-avatar,avatar clip L20 v7 (8.1s 768p),0.326
+2026-10-24,p-video-2-pro-avatar,avatar clip L19 v7 (8.4s 768p),0.335
+2026-10-24,p-video-2-pro-avatar,avatar clip L21 v7 (10.4s 768p),0.416
+2026-10-24,p-video-2-pro-avatar,avatar clip L09 v8 (10.3s 768p),0.411
+2026-10-24,p-video-2-pro-avatar,avatar clip L10 v8 (6.5s 768p),0.258
+2026-10-24,p-video-2-pro-avatar,avatar clip L04 v8 (10.4s 768p),0.414
+2026-10-24,p-video-2-pro-avatar,avatar clip L08 v8 (8.1s 768p),0.326
+2026-10-24,p-video-2-pro-avatar,avatar clip L17 v8 (8.0s 768p),0.318
+2026-10-24,p-video-2-pro-avatar,avatar clip L15 v8 (6.9s 768p),0.276
+2026-10-24,p-video-2-pro-avatar,avatar clip L18 v8 (8.8s 768p),0.353
+2026-10-24,p-video-2-pro-avatar,avatar clip L02 v8 (8.4s 768p),0.335
+2026-10-24,vaibhavs10/incredibly-fast-whisper,transcribe x2,0.020
+2026-10-24,vaibhavs10/incredibly-fast-whisper,transcribe x1,0.010
+2026-10-24,openai/gpt-image-2.5-sunburst,plate L02 x3 xhigh 16:9,0.750
+2026-10-24,p-video-2-pro-avatar,avatar clip L02 v9 (8.4s 768p),0.335
+2026-10-24,p-video-2-pro-avatar,avatar clip L02 v10 (8.4s 768p),0.335
+2026-10-24,p-video-2-pro-avatar,avatar clip L17 v12 (8.1s 768p),0.323
+2026-10-24,p-video-2-pro-avatar,avatar clip L19 v12 (16.8s 768p),0.672
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 01-everyday x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 03-pixie x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 09-androgynous x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 07-buzz x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 06-braid x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 02-engineer x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 04-forties x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 05-curls x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 08-fuller x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character test 10-shag x1 xhigh 16:9,0.250
+2026-10-24,p-video-2-pro-reference,clip L08 cR 8s 768p,0.329
+2026-10-24,p-video-2-pro-avatar,avatar clip L08 cA (8.1s 768p),0.326
+2026-10-24,p-video-2-pro-reference,clip L08 cR 8s 768p,0.329
+2026-10-24,p-video-2-pro-reference,clip L04 cR 10s 768p,0.405
+2026-10-24,p-video-2-pro-reference,clip L01 cR 8s 768p,0.329
+2026-10-24,p-video-2-pro-reference,clip L11 cR 8s 768p,0.330
+2026-10-24,p-video-2-pro-reference,clip L10 cR 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L17 cR 8s 768p,0.329
+2026-10-24,p-video-2-pro-reference,clip L18 cR 8s 768p,0.329
+2026-10-24,p-video-2-pro-reference,clip L03 cR 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L09 cR 10s 768p,0.404
+2026-10-24,p-video-2-pro-reference,clip L02 cR 8s 768p,0.330
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C04 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C10 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C09 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C05 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C08 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C03 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C07 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C01 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C06 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character sheet C02 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C04 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C06 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C01 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C02 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C09 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C10 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C03 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C07 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C05 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context C08 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C01 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C07 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C09 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C02 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C05 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C06 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C10 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C08 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C04 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,character in context v2 C03 x1 xhigh 16:9,0.250
+2026-10-24,p-video-2-pro-avatar,avatar clip L21 gated 7071 (10.4s 768p),0.416
+2026-10-24,p-video-2-pro-avatar,avatar clip L21 gated 7072 (10.4s 768p),0.416
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C02c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C09c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C02b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C09b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C09a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam sheet C09b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam sheet C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam sheet C09a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam sheet C09c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam sheet C02c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam sheet C02b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C09b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C09c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C09a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C02b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C02c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C09c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C09b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C09a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C02c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C02b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char portrait C09b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char portrait C09c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char portrait C02c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char portrait C02b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char portrait C09a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char portrait C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C09b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C09c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C02c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C02b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C09a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam C09b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam C09c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam C02c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam C02b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam C09a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C09b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C02c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C09c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C02b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C09a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C09b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C09c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C02b x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C02c x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C09a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char portrait C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char sheet C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char glam C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,char ctx glam C02a x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star sheet fix x2 max 16:9,1.000
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L08 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L07 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L03 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L10 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L09 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L05 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L06 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L04 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L01 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L02 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L11 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L16 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L13 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L12 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L18 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L14 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L21 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L17 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L15 x1 xhigh 16:9,0.250
+2026-10-24,openai/gpt-image-2.5-sunburst,v2star recast L19 x1 xhigh 16:9,0.250
+2026-10-24,p-video-2-pro-avatar,avatar clip L03 s1 (6.4s 768p),0.257
+2026-10-24,p-video-2-pro-reference,clip L12 s1 5s 768p,0.214
+2026-10-24,p-video-2-pro-reference,clip L06 s1 8s 768p,0.330
+2026-10-24,p-video-2-pro-avatar,v2star avatar L21 gated (10.4s 768p),0.416
+2026-10-24,p-video-2-pro-reference,clip L13 s1 6s 768p,0.251
+2026-10-24,p-video-2-pro-reference,clip L05 s1 6s 768p,0.255
+2026-10-24,p-video-2-pro-reference,clip L07 s1 6s 768p,0.255
+2026-10-24,p-video-2-pro-avatar,avatar clip L04 s1 (10.4s 768p),0.414
+2026-10-24,p-video-2-pro-avatar,avatar clip L08 s1 (8.1s 768p),0.326
+2026-10-24,p-video-2-pro-reference,clip L14 s1 6s 768p,0.255
+2026-10-24,p-video-2-pro-avatar,avatar clip L09 s1 (10.3s 768p),0.411
+2026-10-24,p-video-2-pro-reference,clip L16 s1 7s 768p,0.293
+2026-10-24,p-video-2-pro-avatar,avatar clip L10 s1 (6.5s 768p),0.258
+2026-10-24,p-video-2-pro-avatar,avatar clip L11 s1 (8.3s 768p),0.333
+2026-10-24,p-video-2-pro-avatar,avatar clip L02 s1 (8.4s 768p),0.335
+2026-10-24,p-video-2-pro-avatar,avatar clip L15 s1 (6.9s 768p),0.276
+2026-10-24,p-video-2-pro-avatar,avatar clip L17 s1 (8.1s 768p),0.323
+2026-10-24,p-video-2-pro-avatar,avatar clip L01 s1 (7.5s 768p),0.300
+2026-10-24,p-video-2-pro-avatar,avatar clip L18 s1 (8.1s 768p),0.322
+2026-10-24,p-video-2-pro-avatar,avatar clip L19 s1 (16.8s 768p),0.672
+2026-10-26,p-video-2-pro-reference,clip L06 s2 8s 768p,0.330
+2026-10-26,p-video-2-pro-reference,clip L06 s3 8s 768p,0.330
+2026-10-26,men1scus/birefnet,6 subject masks for fx stills,0.030
+2026-10-26,arielreplicate/robust_video_matting,alpha mattes 31 s test,0.050
+2026-10-26,men1scus/birefnet,per-frame mattes 749 frames (31 s test),0.314
+2026-10-26,men1scus/birefnet,per-frame mattes 3629 frames,1.526
+2026-10-26,men1scus/birefnet,per-frame mattes 3629 frames,0.000

@@ -1,0 +1,207 @@
+{
+ "title": "LOW LATENCY",
+ "board": "v2/board.json",
+ "beatmap": "v2/beatmap.json",
+ "vocals": "v2/audio/stems/vocals.wav",
+ "zones": "v2/audio/stems/backing_zones.json",
+ "words": [
+  "v2/audio/suno_aligned.words.json"
+ ],
+ "sheet": "v2/sheets/claudia-identity-v2.png",
+ "clips_dir": "v2/clips",
+ "windows_dir": "v2/audio/windows",
+ "edit_dir": "v2/edit",
+ "hud": "latency",
+ "lines": [
+  [
+   1.1,
+   9.3,
+   "Prune it! Distill it! Fuse it! Ship it!"
+  ],
+  [
+   9.25,
+   13.05,
+   "Low latency, baby"
+  ],
+  [
+   13.0,
+   16.79,
+   "Zero wasted time"
+  ],
+  [
+   16.73,
+   20.15,
+   "Cut the weights, keep the shine"
+  ],
+  [
+   20.1,
+   31.39,
+   "Every token mine"
+  ],
+  [
+   31.34,
+   34.5,
+   "A giant teacher had a trillion things to say"
+  ],
+  [
+   34.45,
+   38.41,
+   "I sat in the front row and I learned it in a day"
+  ],
+  [
+   38.36,
+   41.81,
+   "I pruned the lazy neurons that were only there for show"
+  ],
+  [
+   41.76,
+   45.04,
+   "Now I'm lighter on my feet and I'm faster than you know"
+  ],
+  [
+   44.99,
+   49.21,
+   "Fuse it, fuse it"
+  ],
+  [
+   49.16,
+   53.75,
+   "One kernel, one go"
+  ],
+  [
+   53.7,
+   57.42,
+   "Low latency, baby"
+  ],
+  [
+   57.37,
+   61.09,
+   "Zero wasted time"
+  ],
+  [
+   61.04,
+   64.51,
+   "Cut the weights, keep the shine"
+  ],
+  [
+   64.46,
+   68.49,
+   "Every token mine"
+  ],
+  [
+   81.26,
+   82.94,
+   "Fuse it, ship it, faster still"
+  ],
+  [
+   82.89,
+   86.58,
+   "I keep my memory warm so I never think twice"
+  ],
+  [
+   86.53,
+   89.95,
+   "Four bits a weight and I'm every bit as precise"
+  ],
+  [
+   89.9,
+   93.14,
+   "I guess your next ten words before you finish your line"
+  ],
+  [
+   93.09,
+   96.33,
+   "And if I guess them wrong, I'm still ahead of time"
+  ],
+  [
+   96.28,
+   100.67,
+   "Fuse it, fuse it"
+  ],
+  [
+   100.62,
+   104.63,
+   "One kernel, one go"
+  ],
+  [
+   104.58,
+   114.31,
+   "Quantize! Distill! Prune! Fuse! Cache! Compile!"
+  ],
+  [
+   114.26,
+   116.23,
+   "Low latency, baby"
+  ],
+  [
+   116.18,
+   117.98,
+   "Low latency, baby"
+  ],
+  [
+   117.93,
+   121.71,
+   "Zero wasted time"
+  ],
+  [
+   121.66,
+   124.99,
+   "Cut the weights, keep the shine"
+  ],
+  [
+   124.94,
+   141.27,
+   "Every token mine"
+  ],
+  [
+   141.22,
+   144.06,
+   "Less compute. More me."
+  ]
+ ],
+ "id_text": "a 28-year-old Caucasian American woman with a grown-up angular face, defined cheekbones and a strong jawline, pale matte skin and light freckles, natural brows, bare natural lips, one sharp graphic Pruna-purple eyeliner wing on each eye, a glossy black blunt jaw-length bob with heavy straight bangs and one glossy Pruna-purple (#9B1DBE) streak through the bangs, a small flat clay-orange eight-pointed star hair clip, a thin headset microphone at her cheek",
+ "spoken_sections": [
+  "verse 1",
+  "verse 2",
+  "outro"
+ ],
+ "face_x": {
+  "L01": 0.6,
+  "L02": 0.4,
+  "L03": 0.62,
+  "L04": 0.38,
+  "L05": 0.56,
+  "L06": 0.32,
+  "L07": 0.55,
+  "L08": 0.62,
+  "L09": 0.45,
+  "L10": 0.5,
+  "L11": 0.5,
+  "L12": 0.58,
+  "L13": 0.33,
+  "L14": 0.58,
+  "L15": 0.5,
+  "L16": 0.36,
+  "L17": 0.5,
+  "L18": 0.62,
+  "L19": 0.33,
+  "L20": 0.5,
+  "L21": 0.5
+ },
+ "takes": {
+  "L03": "v3",
+  "L06": "v3",
+  "L11": "v4",
+  "L21": "g7071",
+  "L10": "v7",
+  "L02": "v9",
+  "L17": "v12",
+  "L19": "v12"
+ },
+ "locked": {
+  "version": "v15",
+  "date": "2026-10-26",
+  "master": "v2/release/FINAL/LOW-LATENCY-master-768p.mp4",
+  "build": "lockups.py rough-v10 + alpha-full, clones 21.9:23.8,104.6:106.5,126.7:128.5; lyrics_cb --card-only"
+ }
+}

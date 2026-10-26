@@ -1,0 +1,9 @@
+A high-fashion lookbook photograph: three full-length views of the same woman side by side on a plain light-grey seamless studio backdrop, soft even studio light: front view, three-quarter view, back view. She stands tall and confident, feet planted, a commanding pose, arms relaxed.
+
+Image 1 is the identity reference: she is the same person as in Image 1, with the same face, freckles, black blunt jaw-length bob with heavy bangs, ONE Pruna-purple (#9B1DBE) streak on her right side, ONE small clay-orange star clip above her left ear, the thin headset mic, matte natural skin and the sharp purple eyeliner wing. Use Image 1 only for who she is.
+
+The look, avant-garde stage couture, theatrical and powerful, fully covering: a sculptural cropped-to-the-waist jacket of glossy black and deep Pruna-purple (#9B1DBE) structured panels like elegant armour, with exaggerated sharp pointed shoulders and a tall stand-up collar closed up to her chin, long fitted sleeves ending in black gloves, worn with high-waisted wide-leg black trousers of heavy satin that fall to the floor, and pointed black platform boots. A single thin silver line traces the jacket's seams. Nothing revealing: no cleavage, no bare midriff, no cut-outs.
+
+She is a 28-year-old adult woman. Real photograph, fine 35mm grain. No text, no letters, no logos.
+
+{"quality": "xhigh", "number_of_images": 3, "aspect_ratio": "16:9", "output_format": "png", "moderation": "low", "refs": ["v2/sheets/claudia-identity-v2.png"]}
