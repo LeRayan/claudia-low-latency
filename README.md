@@ -9,25 +9,30 @@ is about the tricks that make AI models smaller and faster: prune, distill, fuse
 This repo holds everything we used to make it: the code, the storyboard, every prompt, the stills, the word timings
 and the receipts. Fork it and make your own Claudia film.
 
-## Make Claudia sing your voice (3 minutes, about $0.50)
+## Make Claudia sing any song (a few minutes, about $0.60)
 
 ![Claudia singing the LOW LATENCY chorus, the lyrics building behind her](assets/quickstart/demo.gif)
 
-Record 10–20 seconds of yourself singing anything (a phone voice memo is fine). One command turns it into a
-finished, lip-synced shot: Claudia sings your words on stage, and the lyrics build behind her word by word, in the
-film's typography.
+Give it a song (a Suno track works) or a voice memo of you singing. One command turns 10–20 seconds of it into a
+finished, lip-synced shot: Claudia sings it on stage, and the lyrics build behind her word by word, in the film's
+typography.
 
 ```
 git clone https://github.com/LeRayan/claudia-low-latency && cd claudia-low-latency
 cp .env.example .env                      # add PRUNA_API_KEY and REPLICATE_API_TOKEN
 pip install -r requirements.txt           # numpy and pillow; you also need ffmpeg
 python quickstart.py                      # the demo: the film's chorus (the clip above), about $0.60
-python quickstart.py --audio my_voice.m4a # your voice
+python quickstart.py --song my_song.mp3 --start 42 --lyrics "the words she sings"   # 20 s of any song, from 0:42
+python quickstart.py --audio my_voice.m4a # or your own voice
 ```
 
 - **Pick another shot** with `--plate L03`: any of the 20 plates in [`v2/plates/`](v2/plates), or your own image of
   her.
-- **Better timing:** pass `--lyrics "the words you sing"`.
+- **Songs:** `--song` splits out the vocal first (Demucs, about a cent) and lip-syncs to that alone, with the song
+  playing under her. The full mix gives mushy mouths.
+- **Lyrics on screen:** pass the words with `--lyrics`. With `--song`, no lyrics are drawn without them: speech
+  recognition on a sung mix guesses words. Even with the words it can drop a stretch of a fast line, so check the
+  clip; verses time better than chants and stacked choruses.
 - **What it does:** it renders her with Pruna's `p-video-2-pro-avatar` ($0.04 per second), times your words with
   WhisperX, cuts her out of every frame with BiRefNet, and sets your lyrics behind her. The clip lands in `out/`,
   with a small credit in the corner.

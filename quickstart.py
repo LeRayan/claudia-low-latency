@@ -2,11 +2,13 @@
 """Claudia sings it: one command from a voice clip to a finished, lip-synced shot with the film's lyric typography.
 
     python quickstart.py                                   # the demo: the LOW LATENCY chorus, about $0.60
+    python quickstart.py --song my_suno_song.mp3 --start 42 --lyrics "the words"   # 20 s of any song, from 0:42
     python quickstart.py --audio my_voice.m4a              # Claudia sings YOUR recording (10-20 s works best)
     python quickstart.py --audio my_voice.m4a --lyrics "the words you sing"   # better word timing
     python quickstart.py --plate L03                       # any of the 20 film plates (v2/plates/), or your own image
 
 What happens (each step is a script in this repo):
+  0. --song: Demucs splits out the vocal                             (scripts/vocals.py, ~10 s, about $0.01)
   1. your audio -> mono, loudness-normalised, a 0.5 s lead-in       (the avatar model needs it; trimmed after)
   2. Pruna p-video-2-pro-avatar: the plate sings your audio           (scripts/avatar.py, $0.04 per second)
   3. word timing: WhisperX on Replicate                               (skipped for the demo: its words are measured)
@@ -23,8 +25,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 PROMPT = ("A cinematic 35mm music video shot. She sings this song with joy, like a real singer on stage: her head turns "
           "and tilts naturally with the phrases, she looks out over the crowd and back into the lens, relaxed natural "
           "blinks. Camera: eye level, a gentle drift toward her. Her lips, jaw and tongue match every syllable exactly. "
-          "Her mood is joyful and euphoric: warm smiling eyes, mouth wide open on the vowels. Never snarling, never "
-          "sneering. No bouncing: her shoulders and body stay steady; her energy comes from her face, eyes and hands. "
+          "Her mood is joyful and euphoric: warm smiling eyes, wide open and bright, mouth wide open on the vowels. "
+          "Never snarling, never sneering, never sultry: no half-closed eyes, no pout, no smirk. No bouncing: her "
+          "shoulders and body stay steady; her energy comes from her face, eyes and hands. "
           "When the voice is silent her lips are closed. Her face, hair, purple streak, star clip, headset mic and "
           "outfit stay exactly as in the image; she stays the same 28-year-old woman.")
 STOP = set("a an the and or but nor so to of in on at by for from with into onto up as if than that this these those "
@@ -108,9 +111,11 @@ def credit(video, out, text="Claudia by anabology  ·  made with Pruna"):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--song", help="a full song (a Suno track works): she sings its vocal, the song plays under her")
+    ap.add_argument("--start", type=float, default=0.0, help="where in --song to start, in seconds")
     ap.add_argument("--audio", help="a voice clip to sing (any format); default: the LOW LATENCY chorus")
     ap.add_argument("--soundtrack", help="what the final clip plays (default: your audio, or the full mix for the demo)")
-    ap.add_argument("--lyrics", help="the words sung in --audio (helps the timing)")
+    ap.add_argument("--lyrics", help="the words sung (helps the timing; with --song, no lyrics are drawn without it)")
     ap.add_argument("--plate", default=str(Q / "plate.jpg"), help="an image of her, or a film plate id like L03")
     ap.add_argument("--max", type=float, default=20.0, help="longest clip in seconds (cost is $0.04/s)")
     ap.add_argument("--seed", type=int, default=7)
@@ -125,7 +130,9 @@ def main():
     for k in ("PRUNA_API_KEY", "REPLICATE_API_TOKEN"):
         if not re.search(rf"^{k}=\S", env, re.M):
             sys.exit(f"{k} is missing: copy .env.example to .env and fill it in")
-    demo = a.audio is None
+    if a.song and a.audio:
+        sys.exit("pass --song or --audio, not both")
+    demo = a.audio is None and a.song is None
     plate = ROOT / "v2/plates" / f"{a.plate}.jpg" if re.fullmatch(r"L\d\d", a.plate) else pathlib.Path(a.plate)
     if not plate.exists():
         sys.exit(f"no such plate: {plate}")
@@ -135,7 +142,14 @@ def main():
     t0 = time.time()
 
     # 1. audio: mono, loudness-normalised, capped, plus the lead-in the avatar model wants
-    src = Q / "vocal.wav" if demo else pathlib.Path(a.audio)
+    src = Q / "vocal.wav" if demo else pathlib.Path(a.song or a.audio)
+    if a.song:  # lip-sync from her vocal alone (the full mix gives mushy mouths); the song itself plays under her
+        window = work / "song.wav"
+        sh("ffmpeg", "-v", "error", "-y", "-ss", a.start, "-i", src, "-t", a.max, "-ar", "44100", window)
+        print("· splitting out the vocal (Demucs)…", flush=True)
+        import vocals
+        src = vocals.separate(window, work / "song-vocal.wav")
+        a.soundtrack = a.soundtrack or str(window)
     voice, lead = work / "voice.wav", work / "voice-lead.wav"
     sh("ffmpeg", "-v", "error", "-y", "-i", src, "-t", a.max, "-ac", "1", "-ar", "44100",
        "-af", "loudnorm=I=-16:TP=-1.5", voice)
@@ -144,7 +158,7 @@ def main():
     track = work / "soundtrack.wav"
     st = Q / "mix.m4a" if demo and not a.soundtrack else pathlib.Path(a.soundtrack or src)
     sh("ffmpeg", "-v", "error", "-y", "-i", st, "-t", dur, "-ar", "44100", track)
-    print(f"· {dur:.1f} s of audio → about ${dur * 0.04 + dur * 24 * 0.0004 + (0 if demo else 0.01):.2f}", flush=True)
+    print(f"· {dur:.1f} s of audio → about ${dur * 0.04 + dur * 24 * 0.0004 + (0 if demo else 0.01) + (0.01 if a.song else 0):.2f}", flush=True)
 
     # 2. the plate sings it (Pruna p-video-2-pro-avatar)
     print("· rendering her (Pruna p-video-2-pro-avatar, ~1-3 min)…", flush=True)
@@ -160,6 +174,8 @@ def main():
     words = work / "words.json"
     if demo:
         shutil.copy(Q / "words.json", words)
+    elif a.song and not a.lyrics:  # speech recognition on a sung mix guesses words: lyrics only when you give them
+        words.write_text(json.dumps({"words": []}))
     else:
         words.write_text(json.dumps(transcribe(voice, a.lyrics), indent=1))
     clock = json.loads(words.read_text())["words"]

@@ -11,7 +11,8 @@ the human what you made.
 
 ## Start here
 If they just want to see it work, run `python quickstart.py` (the demo, about $0.60) or
-`python quickstart.py --audio <their clip>`. It renders one lip-synced shot with the lyric lockups. The full film
+`python quickstart.py --song <their song> --start <s> --lyrics "<words>"` (or `--audio <their voice clip>`). It renders
+one lip-synced shot with the lyric lockups. The full film
 method follows.
 
 ## Ground rules

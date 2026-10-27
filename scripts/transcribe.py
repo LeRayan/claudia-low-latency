@@ -5,7 +5,7 @@ usage: transcribe.py audio/suno/take1.wav [audio/suno/take2.wav ...]
        transcribe.py --whisperx --prompt-file lyrics.txt v2/audio/stems/vocals.wav   (forced-aligned words, best timing)
 Writes <take>.words.json (chunks with [start, end] timestamps) next to each file and prints the words with times.
 """
-import base64, csv, datetime, json, os, pathlib, subprocess, sys, tempfile, time, urllib.request
+import base64, csv, datetime, json, os, pathlib, subprocess, sys, tempfile, time, urllib.error, urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MODEL = "vaibhavs10/incredibly-fast-whisper"
@@ -20,13 +20,19 @@ def load_env():
             os.environ.setdefault(k.strip(), v.strip().strip('"'))
 
 
-def req(method, url, body=None):
+def req(method, url, body=None, tries=3):
     r = urllib.request.Request(url, method=method, data=json.dumps(body).encode() if body else None)
     r.add_header("Authorization", "Bearer " + os.environ["REPLICATE_API_TOKEN"])
     r.add_header("Content-Type", "application/json")
     r.add_header("User-Agent", "claudia-clips/1.0")
-    with urllib.request.urlopen(r, timeout=120) as f:
-        return json.load(f)
+    for i in range(tries):
+        try:
+            with urllib.request.urlopen(r, timeout=300) as f:
+                return json.load(f)
+        except (TimeoutError, urllib.error.URLError):  # Replicate is sometimes slow to answer: wait and retry
+            if i == tries - 1:
+                raise
+            time.sleep(5)
 
 
 def whisperx(path, prompt):
