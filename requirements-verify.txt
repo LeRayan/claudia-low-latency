@@ -1,0 +1,1 @@
+mediapipe  # lip-sync check in scripts/verify_sync.py (lips); the face model downloads on first use

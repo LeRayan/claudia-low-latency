@@ -64,6 +64,10 @@ method follows.
 - **Silent tails:** gate the window to true silence after the last word, or the lips keep moving on beat bleed.
 - **Iterate at 768p.** Pass a seed every time. Audio windows under 6 s can crash the reference model. Retry
   transient failures once with a new seed.
+- **Windows:** build every audio window with `scripts/windows.py` (lead-in prepended in code and checked). Before
+  trimming a take, check its first 0.4 s is silent.
+- **Windows:** build every audio window with `scripts/windows.py` (lead-in prepended in code and checked). Before
+  trimming a take, check its first 0.4 s is silent.
 - **Assemble frame-exact** on the song's frames (`edit/assemble.py`). Pin the chosen take for each shot in
   `projects/<name>.json`.
 
@@ -81,6 +85,8 @@ method follows.
   to one width plus small italic rows, built word by word. Highlight theme phrases, never lone ambiguous words.
   Placement rule: no letter more than 15% hidden by her, and never over her face.
 - Check with `--sheet` (one frame per lyric block) before sending a full render.
+- **Verify sync** with the `verify-sync` skill: `verify_sync.py words --fix` on the clock, then `verify_sync.py lips`
+  per shot on the cut. Look at every UNSURE strip.
 - End card: "Claudia by anabology · made with Pruna" (`edit/lyrics_cb.py --card-only`).
 
 ## Before you send anything

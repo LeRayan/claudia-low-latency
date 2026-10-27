@@ -178,6 +178,9 @@ def main():
         words.write_text(json.dumps({"words": []}))
     else:
         words.write_text(json.dumps(transcribe(voice, a.lyrics), indent=1))
+        # speech recognition runs late on singing: snap each word to its own attack in the vocal (scripts/verify_sync.py)
+        subprocess.run([sys.executable, ROOT / "scripts/verify_sync.py", "words", words, "--vocal", voice, "--fix", words],
+                       stdout=subprocess.DEVNULL)
     clock = json.loads(words.read_text())["words"]
     print(f"· {len(clock)} words: {' '.join(w['word'] for w in clock)[:120]}", flush=True)
 
@@ -201,7 +204,24 @@ def main():
         lyr = clip
     out.parent.mkdir(parents=True, exist_ok=True)
     credit(lyr, out)
+    verify_lips(out, words, work)
     print(f"\n✓ {out}  ({time.time() - t0:.0f} s)\nCredit when you share: Claudia by @anabology, made with Pruna p-video")
+
+
+def verify_lips(video, words, work):
+    """Check her lips against the words (scripts/verify_sync.py lips). Needs mediapipe; skipped politely without it."""
+    try:
+        import mediapipe  # noqa: F401
+    except ImportError:
+        print("· lip-sync check skipped: pip install -r requirements-verify.txt to verify lips automatically")
+        return
+    print("· checking lip sync…", flush=True)
+    r = subprocess.run([sys.executable, ROOT / "scripts/verify_sync.py", "lips", video, "--clock", words,
+                        "--strips", work / "lip-strips"], capture_output=True, text=True)
+    line = [l for l in r.stdout.splitlines() if l.strip()[:1].isdigit()]
+    print("  " + (line[0] if line else r.stdout.strip()[-300:]))
+    if r.returncode:
+        print("  lips look off: run it again with a new --seed, and see LESSONS.md, 'Sync, verified'")
 
 
 if __name__ == "__main__":

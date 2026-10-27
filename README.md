@@ -37,6 +37,8 @@ python quickstart.py --audio my_voice.m4a # or your own voice
   WhisperX, cuts her out of every frame with BiRefNet, and sets your lyrics behind her. The clip lands in `out/`,
   with a small credit in the corner.
 - **Every run is logged** to `spend.csv`.
+- **Sync is checked, not assumed:** the quickstart snaps your lyrics to the sung attacks and, with
+  `pip install -r requirements-verify.txt`, checks her lips word by word (`scripts/verify_sync.py`, skill `verify-sync`).
 
 If you post one, credit "Claudia by anabology, made with Pruna". We'd love to see it.
 
@@ -100,6 +102,8 @@ it.
 ## What's inside
 
 - [LESSONS.md](LESSONS.md): everything that worked and everything that failed, across two films.
+- **Sync verification** (`scripts/verify_sync.py`, skill `verify-sync`): measures lyric timing against the vocal and
+  lip sync per shot, and fixes the lyric clock. LESSONS.md, "Sync, verified", has how we got it wrong first.
 - [PROMPTS.md](PROMPTS.md): the prompt patterns for the identity sheet, plates, sung close-ups, action worlds and the
   song, and why each one reads the way it does.
 - [CHARACTERS.md](CHARACTERS.md): how to make believable new characters in an open character's style, and an honest

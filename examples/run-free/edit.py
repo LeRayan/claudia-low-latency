@@ -2,7 +2,7 @@
 """RUN FREE edit: six takes cut frame-exact on the song's frames, her matte per shot, lyric lockups behind her, credit.
 
 usage: python examples/run-free/edit.py      (after render.py; about $0.55 of mattes)
-Writes examples/run-free/edit/RUN-FREE.mp4. Mattes are cached in edit/mattes/<shot>/ (BiRefNet, ~$0.0004 a frame).
+Writes examples/run-free/edit/RUN-FREE.mp4, then check it: see the README, "Verify". Mattes are cached in edit/mattes/<shot>/ (BiRefNet, ~$0.0004 a frame).
 """
 import pathlib, subprocess, sys
 
@@ -23,7 +23,18 @@ def sh(*cmd, **kw):
 
 
 parts, alphas = [], []
+def lead_is_silent(take, lead=PREROLL):
+    """The take keeps the window's audio, so its first `lead` seconds must be silent. If not, the lead-in went missing
+    and trimming it would put her lips early (RUN FREE v1)."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(take), "-t", str(lead - 0.1), "-ac", "1", "-ar", "16000",
+                          "-f", "s16le", "-"], capture_output=True, check=True).stdout
+    x = np.frombuffer(raw, np.int16).astype(float)
+    return 20 * np.log10(np.sqrt((x ** 2).mean()) / 32768 + 1e-9) < -50
+
+
 for sid, t0, t1, plate, _ in SHOTS:
+    assert lead_is_silent(HERE / "clips" / f"{sid}.mp4"), f"{sid}: no silent lead-in in the take; don't trim blind"
     n = round(t1 * FPS) - round(t0 * FPS)  # frame-exact on the song's own frames: nothing drifts
     part = E / f"{sid}.mp4"
     sh("ffmpeg", "-v", "error", "-y", "-ss", PREROLL, "-i", HERE / "clips" / f"{sid}.mp4", "-frames:v", n, "-an",
