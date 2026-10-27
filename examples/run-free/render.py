@@ -17,18 +17,18 @@ PREROLL = 0.5
 BASE = ("A cinematic 35mm music video shot on a concert stage. Her lips, jaw and tongue match every syllable exactly. "
         "Warm, bright, wide-open eyes; never sultry: no half-closed eyes, no pout, no smirk, never snarling. "
         "No bouncing: her shoulders and body stay steady; her energy comes from her face, eyes and hands. "
-        "Camera: eye level, a gentle drift toward her. When the voice is silent her lips are closed. Her face, hair, "
+        "Camera: eye level, a gentle drift toward her. When the voice is silent her lips are closed. Her face, any glasses, hair, "
         "purple streak, star clip, headset mic and outfit stay exactly as in the image; she stays the same person.")
 CHANT = "She shouts a chant, one punchy word at a time, grinning with joy between the shouts. "
 VERSE = "She half-speaks the lines like a confident, amused singer letting the crowd in on a secret, a joyful smile between lines. "
 CHORUS = "She sings a huge joyful, euphoric belt, mouth wide open on the vowels, and holds the last note wide open. "
 
 SHOTS = [  # id, start, end (song seconds), plate, mood
-    ("R1", 0.00, 11.05, "C02a", CHANT),
-    ("R2", 11.05, 18.95, "C09a", VERSE),
+    ("R1", 0.00, 11.05, "N1", CHANT),
+    ("R2", 11.05, 18.95, "N2", VERSE),
     ("R3", 18.95, 27.05, "C02b", VERSE),
-    ("R4", 27.05, 34.20, "C09b", VERSE),
-    ("R5", 34.20, 42.80, "C02c", VERSE),
+    ("R4", 27.05, 34.20, "N3", VERSE),
+    ("R5", 34.20, 42.80, "C09b", VERSE),
     ("R6", 42.80, 57.60, "C09c", CHORUS),
 ]
 
