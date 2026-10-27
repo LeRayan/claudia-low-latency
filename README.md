@@ -102,8 +102,8 @@ it.
 - [LESSONS.md](LESSONS.md): everything that worked and everything that failed, across two films.
 - [PROMPTS.md](PROMPTS.md): the prompt patterns for the identity sheet, plates, sung close-ups, action worlds and the
   song, and why each one reads the way it does.
-- [CHARACTERS.md](CHARACTERS.md): how to make believable variants of an open character, and an honest section on
-  fighting the model's defaults (and ours). It comes with its own skill, `character-variants`.
+- [CHARACTERS.md](CHARACTERS.md): how to make believable new characters in an open character's style, and an honest
+  section on fighting the model's defaults (and ours). It comes with its own skill, `character-variants`.
 - **A Claude Code skill** in [`.claude/skills/claudia-music-video/`](.claude/skills/claudia-music-video/SKILL.md).
   Clone the repo, run `claude` inside it and say "make me a Claudia music video": it walks the whole method, with a
   checkpoint wherever a human should pick.
@@ -126,7 +126,9 @@ back to the open fonts in `assets/fonts` (Anton and Libre Baskerville, SIL Open 
 
 ## Credit and terms
 
-- **Claudia is an open character by anabology (claudia.gallery).** Her canon and much of the method are theirs. Read their notes and watch the originals at
+- **Claudia is an open character by anabology (claudia.gallery).** Her canon and much of the method are theirs. One
+  honest note: in her canon the streak is clay-orange (#D97757); for LOW LATENCY we gave her a purple one to match
+  the film's palette. Read their notes and watch the originals at
   [claudia.gallery](https://claudia.gallery); the character's terms of use are at
   [claudia.gallery/use](https://claudia.gallery/use/).
 - The code in this repo is MIT-licensed. The song, the film and the stills are ours; credit "LOW LATENCY: Claudia by

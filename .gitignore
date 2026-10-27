@@ -15,3 +15,6 @@ out/
 !assets/quickstart/demo.mp4
 !assets/quickstart/vocal.wav
 !assets/quickstart/mix.m4a
+!examples/run-free/audio/*.m4a
+examples/run-free/clips/
+examples/run-free/edit/

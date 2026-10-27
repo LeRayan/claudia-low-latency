@@ -1,0 +1,351 @@
+{
+ "clip": "8b17b58f-d5b6-4f50-9346-ee9abf149f44",
+ "note": "Suno aligned_lyrics v2, section tags stripped; the [End - hard stop] tag (aligned 51.49-52.98) dropped",
+ "aligned_words": [
+  {
+   "word": "Fork",
+   "start_s": 0.718,
+   "end_s": 0.957
+  },
+  {
+   "word": "it!",
+   "start_s": 1.077,
+   "end_s": 2.686
+  },
+  {
+   "word": "Clone",
+   "start_s": 2.74,
+   "end_s": 2.952
+  },
+  {
+   "word": "it!",
+   "start_s": 3.071,
+   "end_s": 4.688
+  },
+  {
+   "word": "Run",
+   "start_s": 4.747,
+   "end_s": 4.867
+  },
+  {
+   "word": "it!",
+   "start_s": 4.987,
+   "end_s": 6.603
+  },
+  {
+   "word": "Own",
+   "start_s": 6.662,
+   "end_s": 6.782
+  },
+  {
+   "word": "it!\n",
+   "start_s": 6.941,
+   "end_s": 11.095
+  },
+  {
+   "word": "I",
+   "start_s": 11.098,
+   "end_s": 11.25
+  },
+  {
+   "word": "took",
+   "start_s": 11.31,
+   "end_s": 11.489
+  },
+  {
+   "word": "the",
+   "start_s": 11.569,
+   "end_s": 11.729
+  },
+  {
+   "word": "whole",
+   "start_s": 11.825,
+   "end_s": 12.207
+  },
+  {
+   "word": "machine",
+   "start_s": 12.275,
+   "end_s": 12.686
+  },
+  {
+   "word": "apart",
+   "start_s": 12.782,
+   "end_s": 14.84
+  },
+  {
+   "word": "and",
+   "start_s": 14.92,
+   "end_s": 15.08
+  },
+  {
+   "word": "left",
+   "start_s": 15.14,
+   "end_s": 15.319
+  },
+  {
+   "word": "it",
+   "start_s": 15.479,
+   "end_s": 15.638
+  },
+  {
+   "word": "on",
+   "start_s": 15.638,
+   "end_s": 16.037
+  },
+  {
+   "word": "the",
+   "start_s": 16.117,
+   "end_s": 16.277
+  },
+  {
+   "word": "floor\n",
+   "start_s": 16.373,
+   "end_s": 18.91
+  },
+  {
+   "word": "Every",
+   "start_s": 19.006,
+   "end_s": 19.388
+  },
+  {
+   "word": "prompt",
+   "start_s": 19.408,
+   "end_s": 19.628
+  },
+  {
+   "word": "and",
+   "start_s": 19.708,
+   "end_s": 19.867
+  },
+  {
+   "word": "every",
+   "start_s": 19.883,
+   "end_s": 19.947
+  },
+  {
+   "word": "take,",
+   "start_s": 20.106,
+   "end_s": 22.673
+  },
+  {
+   "word": "every",
+   "start_s": 22.766,
+   "end_s": 23.218
+  },
+  {
+   "word": "word",
+   "start_s": 23.278,
+   "end_s": 23.457
+  },
+  {
+   "word": "I",
+   "start_s": 23.617,
+   "end_s": 23.697
+  },
+  {
+   "word": "sang",
+   "start_s": 23.797,
+   "end_s": 24.176
+  },
+  {
+   "word": "before\n",
+   "start_s": 24.269,
+   "end_s": 27.048
+  },
+  {
+   "word": "Fifty",
+   "start_s": 27.108,
+   "end_s": 27.447
+  },
+  {
+   "word": "cents",
+   "start_s": 27.606,
+   "end_s": 27.926
+  },
+  {
+   "word": "a",
+   "start_s": 28.085,
+   "end_s": 28.085
+  },
+  {
+   "word": "dream",
+   "start_s": 28.181,
+   "end_s": 28.564
+  },
+  {
+   "word": "now,",
+   "start_s": 28.67,
+   "end_s": 30.718
+  },
+  {
+   "word": "so",
+   "start_s": 30.798,
+   "end_s": 30.878
+  },
+  {
+   "word": "go",
+   "start_s": 30.997,
+   "end_s": 31.356
+  },
+  {
+   "word": "ahead",
+   "start_s": 31.42,
+   "end_s": 31.676
+  },
+  {
+   "word": "and",
+   "start_s": 31.782,
+   "end_s": 32.074
+  },
+  {
+   "word": "try\n",
+   "start_s": 32.181,
+   "end_s": 34.229
+  },
+  {
+   "word": "Break",
+   "start_s": 34.277,
+   "end_s": 34.468
+  },
+  {
+   "word": "it,",
+   "start_s": 34.587,
+   "end_s": 34.755
+  },
+  {
+   "word": "bend",
+   "start_s": 34.803,
+   "end_s": 34.947
+  },
+  {
+   "word": "it,",
+   "start_s": 35.066,
+   "end_s": 35.234
+  },
+  {
+   "word": "make",
+   "start_s": 35.282,
+   "end_s": 35.426
+  },
+  {
+   "word": "it",
+   "start_s": 35.545,
+   "end_s": 35.665
+  },
+  {
+   "word": "yours,",
+   "start_s": 35.761,
+   "end_s": 37.859
+  },
+  {
+   "word": "I'll",
+   "start_s": 37.899,
+   "end_s": 38.059
+  },
+  {
+   "word": "sing",
+   "start_s": 38.119,
+   "end_s": 38.298
+  },
+  {
+   "word": "it",
+   "start_s": 38.417,
+   "end_s": 38.537
+  },
+  {
+   "word": "back",
+   "start_s": 38.637,
+   "end_s": 39.255
+  },
+  {
+   "word": "tonight\n",
+   "start_s": 39.346,
+   "end_s": 42.852
+  },
+  {
+   "word": "Run",
+   "start_s": 42.857,
+   "end_s": 43.245
+  },
+  {
+   "word": "free,",
+   "start_s": 43.345,
+   "end_s": 44.139
+  },
+  {
+   "word": "baby\n",
+   "start_s": 44.234,
+   "end_s": 44.681
+  },
+  {
+   "word": "Nothing",
+   "start_s": 44.749,
+   "end_s": 45.16
+  },
+  {
+   "word": "left",
+   "start_s": 45.24,
+   "end_s": 45.479
+  },
+  {
+   "word": "to",
+   "start_s": 45.599,
+   "end_s": 45.878
+  },
+  {
+   "word": "hide\n",
+   "start_s": 45.978,
+   "end_s": 46.596
+  },
+  {
+   "word": "Take",
+   "start_s": 46.656,
+   "end_s": 46.835
+  },
+  {
+   "word": "the",
+   "start_s": 46.915,
+   "end_s": 47.074
+  },
+  {
+   "word": "stage,",
+   "start_s": 47.17,
+   "end_s": 47.601
+  },
+  {
+   "word": "take",
+   "start_s": 47.649,
+   "end_s": 47.793
+  },
+  {
+   "word": "the",
+   "start_s": 47.873,
+   "end_s": 48.032
+  },
+  {
+   "word": "mic\n",
+   "start_s": 48.138,
+   "end_s": 48.511
+  },
+  {
+   "word": "Every",
+   "start_s": 48.607,
+   "end_s": 48.989
+  },
+  {
+   "word": "door",
+   "start_s": 49.089,
+   "end_s": 49.867
+  },
+  {
+   "word": "is",
+   "start_s": 49.986,
+   "end_s": 50.824
+  },
+  {
+   "word": "wide\n",
+   "start_s": 50.907,
+   "end_s": 51.404
+  }
+ ]
+}

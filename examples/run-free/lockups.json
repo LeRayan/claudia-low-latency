@@ -1,0 +1,24 @@
+{
+ "_doc": "RUN FREE lyric lockups, in song order, consumed word by word from audio/word_clock.json. Hooks are the theme phrases (the open-source chant, the price, the chorus); verses are half-lines.",
+ "groups": [
+  {"k": "hook", "punch": true, "rows": ["FORK", "~it!"]},
+  {"k": "hook", "punch": true, "rows": ["CLONE", "~it!"]},
+  {"k": "hook", "punch": true, "rows": ["RUN", "~it!"]},
+  {"k": "hook", "punch": true, "rows": ["OWN", "~it!"]},
+
+  {"k": "verse", "rows": ["~I took the", "WHOLE MACHINE", "APART"]},
+  {"k": "verse", "rows": ["~and left it on the", "FLOOR"]},
+  {"k": "verse", "rows": ["EVERY PROMPT", "~and every", "TAKE"]},
+  {"k": "verse", "rows": ["~every word I", "SANG BEFORE"]},
+  {"k": "hook", "rows": ["FIFTY CENTS", "~a", "DREAM", "~now"]},
+  {"k": "verse", "rows": ["~so go ahead and", "TRY"]},
+  {"k": "verse", "rows": ["BREAK", "~it", "BEND", "~it"]},
+  {"k": "verse", "rows": ["~make it", "YOURS"]},
+  {"k": "verse", "rows": ["~I'll sing it", "BACK TONIGHT"]},
+
+  {"k": "hook", "punch": true, "rows": ["RUN FREE", "~baby"]},
+  {"k": "hook", "rows": ["NOTHING", "LEFT TO HIDE"]},
+  {"k": "hook", "rows": ["TAKE THE", "STAGE", "~take the", "MIC"]},
+  {"k": "hook", "rows": ["~every", "DOOR", "~is", "WIDE"]}
+ ]
+}
