@@ -11,3 +11,7 @@ v2/edit/
 v2/fx/
 spend.csv
 !receipts/spend.csv
+out/
+!assets/quickstart/demo.mp4
+!assets/quickstart/vocal.wav
+!assets/quickstart/mix.m4a

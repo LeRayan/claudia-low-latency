@@ -32,5 +32,7 @@ fs = sorted(glob.glob(os.path.join(sys.argv[1], "*.jpg")))
 with ThreadPoolExecutor(16) as ex: pt = list(ex.map(run, fs))
 missing = [f for f in fs if not os.path.exists(os.path.join(sys.argv[2], os.path.basename(f).replace(".jpg", ".png")))]
 print(len(fs), "frames,", len(missing), "missing, gpu s", round(sum(pt)))
+if not os.path.exists(os.path.join(ROOT, "spend.csv")):
+    open(os.path.join(ROOT, "spend.csv"), "w").write("date,model,what,est_cost\n")
 csv.writer(open(os.path.join(ROOT, "spend.csv"), "a", newline="")).writerow(
     [datetime.date.today().isoformat(), "men1scus/birefnet", f"per-frame mattes {len(fs)-len(missing)} frames", f"{sum(pt)*0.000725:.3f}"])

@@ -1,0 +1,5 @@
+# only for scripts/force_align.py and scripts/word_clock.py
+numpy
+soundfile
+torch
+transformers

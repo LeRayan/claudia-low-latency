@@ -74,6 +74,8 @@ def main():
     print("\n".join(results))
 
     done = sum(1 for d in dests if d.exists())
+    if not (ROOT / "spend.csv").exists():
+        (ROOT / "spend.csv").write_text("date,model,what,est_cost\n")
     with (ROOT / "spend.csv").open("a", newline="") as f:
         csv.writer(f).writerow([datetime.date.today().isoformat(), MODEL, f"song {out.name} x{done}",
                                 f"{EST_COST * done:.3f}"])

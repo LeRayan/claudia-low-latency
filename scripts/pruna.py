@@ -63,6 +63,8 @@ def audio_seconds(path):
 
 def log_spend(what, cost):
     path = ROOT / "spend.csv"
+    if not path.exists():
+        path.write_text("date,model,what,est_cost\n")  # a fresh clone has no log yet
     with path.open("a", newline="") as f:
         csv.writer(f).writerow([datetime.date.today().isoformat(), MODEL, what, f"{cost:.3f}"])
     total = sum(float(r["est_cost"]) for r in csv.DictReader(path.open()))

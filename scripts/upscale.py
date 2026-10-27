@@ -49,6 +49,8 @@ def main():
         for sid, cost, msg in ex.map(lambda f: upscale(f, dst / f.name, a.target), segs):
             print(sid, msg)
             total += cost
+    if not (ROOT / "spend.csv").exists():
+        (ROOT / "spend.csv").write_text("date,model,what,est_cost\n")
     with (ROOT / "spend.csv").open("a", newline="") as f:
         csv.writer(f).writerow([datetime.date.today().isoformat(), "p-video-upscale",
                                 f"upscale {len(segs)} segments to {a.target}", f"{total:.3f}"])

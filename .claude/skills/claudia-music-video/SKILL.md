@@ -9,6 +9,11 @@ The method that made LOW LATENCY: 20 lip-synced shots for $6.69 of video generat
 hard way; LESSONS.md has the full list. Work autonomously between checkpoints, and stop at each checkpoint to show
 the human what you made.
 
+## Start here
+If they just want to see it work, run `python quickstart.py` (the demo, about $0.60) or
+`python quickstart.py --audio <their clip>`. It renders one lip-synced shot with the lyric lockups. The full film
+method follows.
+
 ## Ground rules
 - **Keys** live in `.env` (`REPLICATE_API_TOKEN`, `PRUNA_API_KEY`). Load them in scripts; never print them.
 - **Budget.** Agree a budget with the human first. Every script that calls an API appends to `spend.csv` (date,

@@ -1,5 +1,2 @@
 numpy
-soundfile
 pillow
-torch
-transformers

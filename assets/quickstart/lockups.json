@@ -1,0 +1,8 @@
+{"_doc": "The demo chorus, hand-set like the film. Your own audio gets an automatic spec (quickstart.py auto_spec).",
+ "groups": [
+  {"k": "hook", "rows": ["ZERO", "WASTED TIME"]},
+  {"k": "hook", "rows": ["CUT THE", "WEIGHTS", "~keep the", "SHINE"]},
+  {"k": "verse", "rows": ["~every"]},
+  {"k": "hook", "rows": ["TOKEN"]},
+  {"k": "hook", "rows": ["MINE"]}
+ ]}

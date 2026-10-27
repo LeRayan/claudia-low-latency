@@ -2,6 +2,7 @@
 """Lyric lockups: every sung line as a typographic block BEHIND her, built word by word on the measured word clock.
 
 usage: CLIP_PROJECT=v2 .venv-align/bin/python edit/lockups.py SRC.mp4 ALPHA.mp4 OUT.mp4 [--start 0] [--clones 21.9:23.8,...] [--sheet]
+       any song: ... --clock words.json --spec lockups.json --soundtrack song.wav [--beatmap none]
 - v2/lockups.json says how each line is set: CAPS rows (Helvetica Condensed Black) justified to one block width,
   ~italic rows (Baskerville SemiBold Italic) for filler words. Hooks are big and punch the picture on key words;
   verses are smaller and quiet. The chopped chant shows nothing.
@@ -16,8 +17,24 @@ import numpy as np
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-CAPS = lambda s: ImageFont.truetype("/System/Library/Fonts/HelveticaNeue.ttc", max(6, int(s)), index=9)
-ITAL = lambda s: ImageFont.truetype("/System/Library/Fonts/Supplemental/Baskerville.ttc", max(6, int(s)), index=5)
+_HN, _BK = "/System/Library/Fonts/HelveticaNeue.ttc", "/System/Library/Fonts/Supplemental/Baskerville.ttc"
+_FONTS = ROOT / "assets/fonts"  # open (OFL) stand-ins where the macOS fonts the film used don't exist
+
+
+def CAPS(s):
+    if pathlib.Path(_HN).exists():
+        return ImageFont.truetype(_HN, max(6, int(s)), index=9)  # Helvetica Neue Condensed Black
+    return ImageFont.truetype(str(_FONTS / "Anton-Regular.ttf"), max(6, int(s)))
+
+
+def ITAL(s):
+    if pathlib.Path(_BK).exists():
+        return ImageFont.truetype(_BK, max(6, int(s)), index=5)  # Baskerville SemiBold Italic
+    f = ImageFont.truetype(str(_FONTS / "LibreBaskerville-Italic.ttf"), max(6, int(s)))
+    f.set_variation_by_name(b"SemiBold Italic")
+    return f
+
+
 KEY = {"LATENCY", "ZERO", "WASTED", "CUT", "WEIGHTS", "SHINE", "TOKEN", "MINE", "FUSE", "KERNEL", "PRUNE", "DISTILL",
        "SHIP", "QUANTIZE", "CACHE", "COMPILE", "LESS", "COMPUTE", "MORE", "ME"}
 FPS = 24
@@ -28,6 +45,10 @@ ap.add_argument("src"); ap.add_argument("alpha"); ap.add_argument("out")
 ap.add_argument("--start", type=float, default=0.0)
 ap.add_argument("--clones", default="")
 ap.add_argument("--sheet", action="store_true")
+ap.add_argument("--clock", default=str(ROOT / "v2/audio/word_clock.json"), help='{"words": [{word, t, end}]}')
+ap.add_argument("--spec", default=str(ROOT / "v2/lockups.json"))
+ap.add_argument("--beatmap", default=str(ROOT / "v2/beatmap.json"), help="'none': no grid snap")
+ap.add_argument("--soundtrack", default=str(ROOT / "v2/audio/LOW-LATENCY-PICK.wav"))
 a = ap.parse_args()
 info = json.loads(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
                                   "stream=width,height:format=duration", "-of", "json", a.src],
@@ -38,18 +59,20 @@ S = 2  # placement at 1/2 scale
 
 
 # ---------------------------------------------------------------- groups on the word clock
-clock = json.load(open(ROOT / "v2/audio/word_clock.json"))["words"]
-bm = json.load(open(ROOT / "v2/beatmap.json"))
-six = bm["beat_s"] / 4
+clock = json.load(open(a.clock))["words"]
+bm = None if a.beatmap == "none" else json.load(open(a.beatmap))
 
 
 def show_time(t):
+    if not bm:
+        return t - 1 / FPS
+    six = bm["beat_s"] / 4
     g = bm["first_downbeat"] + round((t - bm["first_downbeat"]) / six) * six
     return (g if abs(g - t) <= 0.03 else t) - 1 / FPS
 
 
 groups, wi = [], 0
-for g in json.load(open(ROOT / "v2/lockups.json"))["groups"]:
+for g in json.load(open(a.spec))["groups"]:
     if g["k"] == "skip":
         wi += g["n"]
         continue
@@ -61,8 +84,9 @@ for g in json.load(open(ROOT / "v2/lockups.json"))["groups"]:
         for tok in toks:
             c = clock[wi]
             assert norm(c["word"]) == norm(tok), (tok, c["word"], c["t"])
-            ws.append({"text": tok, "show": show_time(c["t"]), "end": c["end"],
-                       "punch": g["k"] == "hook" and not ital and norm(tok) in KEY})
+            first_caps = not ital and not any(not w["ital"] for w in rows) and not ws
+            ws.append({"text": tok, "show": show_time(c["t"]), "end": c["end"],  # "punch": true = first CAPS word
+                       "punch": g["k"] == "hook" and not ital and (norm(tok) in KEY or (g.get("punch") and first_caps))})
             wi += 1
         rows.append({"ital": ital, "words": ws})
     allw = [w for r in rows for w in r["words"]]
@@ -296,7 +320,7 @@ def frame(i, img, matte):
 
 enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                         "-r", str(FPS), "-i", "-", "-ss", str(a.start), "-t", str(N / FPS),
-                        "-i", str(ROOT / "v2/audio/LOW-LATENCY-PICK.wav"), "-map", "0:v", "-map", "1:a",
+                        "-i", a.soundtrack, "-map", "0:v", "-map", "1:a",
                         "-c:v", "libx264", "-crf", "17", "-preset", "medium", "-pix_fmt", "yuv420p",
                         "-c:a", "aac", "-b:a", "256k", "-frames:v", str(N), a.out], stdin=subprocess.PIPE)
 want = {int((g["last"] + 0.2 - a.start) * FPS): g for g in groups}

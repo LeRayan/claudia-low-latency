@@ -9,6 +9,32 @@ is about the tricks that make AI models smaller and faster: prune, distill, fuse
 This repo holds everything we used to make it: the code, the storyboard, every prompt, the stills, the word timings
 and the receipts. Fork it and make your own Claudia film.
 
+## Make Claudia sing your voice (3 minutes, about $0.50)
+
+![Claudia singing the LOW LATENCY chorus, the lyrics building behind her](assets/quickstart/demo.gif)
+
+Record 10–20 seconds of yourself singing anything (a phone voice memo is fine). One command turns it into a
+finished, lip-synced shot: Claudia sings your words on stage, and the lyrics build behind her word by word, in the
+film's typography.
+
+```
+git clone https://github.com/LeRayan/claudia-low-latency && cd claudia-low-latency
+cp .env.example .env                      # add PRUNA_API_KEY and REPLICATE_API_TOKEN
+pip install -r requirements.txt           # numpy and pillow; you also need ffmpeg
+python quickstart.py                      # the demo: the film's chorus (the clip above), about $0.60
+python quickstart.py --audio my_voice.m4a # your voice
+```
+
+- **Pick another shot** with `--plate L03`: any of the 20 plates in [`v2/plates/`](v2/plates), or your own image of
+  her.
+- **Better timing:** pass `--lyrics "the words you sing"`.
+- **What it does:** it renders her with Pruna's `p-video-2-pro-avatar` ($0.04 per second), times your words with
+  WhisperX, cuts her out of every frame with BiRefNet, and sets your lyrics behind her. The clip lands in `out/`,
+  with a small credit in the corner.
+- **Every run is logged** to `spend.csv`.
+
+If you post one, credit "Claudia by anabology, made with Pruna". We'd love to see it.
+
 ## The receipts
 
 | | |
@@ -86,10 +112,12 @@ The three biggest lessons:
 
 ```
 cp .env.example .env            # REPLICATE_API_TOKEN, PRUNA_API_KEY
-python3 -m venv .venv-align && .venv-align/bin/pip install -r requirements.txt
+pip install -r requirements.txt                  # everything except the forced aligner
+pip install -r requirements-align.txt            # torch + transformers, for scripts/force_align.py only
 ```
 
-You also need ffmpeg. Scripts that call an API log what they spend to `spend.csv`.
+You also need ffmpeg. On macOS the lyrics use the film's fonts (Helvetica Neue, Baskerville); elsewhere they fall
+back to the open fonts in `assets/fonts` (Anton and Libre Baskerville, SIL Open Font License). Scripts that call an API log what they spend to `spend.csv`.
 
 ## Credit and terms
 

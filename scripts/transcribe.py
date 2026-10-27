@@ -81,6 +81,8 @@ def main():
         path.with_suffix(".wx.words.json" if wx else ".words.json").write_text(json.dumps(out, indent=1))
         print(f"== {path}")
         print(" ".join(f"{c['timestamp'][0]:.1f}:{c['text'].strip()}" for c in out.get("chunks", [])))
+    if not (ROOT / "spend.csv").exists():
+        (ROOT / "spend.csv").write_text("date,model,what,est_cost\n")
     with (ROOT / "spend.csv").open("a", newline="") as fh:
         csv.writer(fh).writerow([datetime.date.today().isoformat(), MODEL, f"transcribe x{len(sys.argv) - 1}",
                                  f"{EST_COST * (len(sys.argv) - 1):.3f}"])
